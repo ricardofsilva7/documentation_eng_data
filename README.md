@@ -36,10 +36,11 @@
 
 `Integração de Dados`
 * **Realiza a unificação de dados de diversas fontes, garantindo que estejam íntegros e integrados de maneira consistente. Para ser realizado de forma correta, são necessários alguns passos importantes:**
-  > 1. Extração dos Dados;
-  > 2. Transformação dos Dados;
-  > 3. Carregamento dos Dados;
-  > 4. Harmonização e Deduplicação.
+
+ >  1. Extração dos Dados;
+ >  2. Transformação dos Dados;
+ >  3. Carregamento dos Dados;
+ >  4. Harmonização e Deduplicação.
 
 &nbsp;
 
@@ -110,15 +111,15 @@
 >***
 >## ✅ Vantagens do Git
 >
->* Distribuído: Cada desenvolvedor tem uma cópia completa do repositório, incluindo todo o histórico do projeto; 
+>* **`Distribuído`**: Cada desenvolvedor tem uma cópia completa do repositório, incluindo todo o histórico do projeto; 
 >
->* Colaboração: Torna mais simples o trabalho de equipes e a mesma coisa para vários desenvolvedores, alterando diferentes partes do projeto ao mesmo tempo;
+>* **`Colaboração`**: Torna mais simples o trabalho de equipes e a mesma coisa para vários desenvolvedores, alterando diferentes partes do projeto ao mesmo tempo;
 >
->* História da Revisão: Mantém um registro completo de todas as alterações feitas ao projeto e simplifica o trabalho com elas. Isso pode ser usado para reverter alterações, se necessário;
+>* **`História da Revisão`**: Mantém um registro completo de todas as alterações feitas ao projeto e simplifica o trabalho com elas. Isso pode ser usado para reverter alterações, se necessário;
 >
->* Branches e Merges: Simplifica a criação e manutenção de branches onde o desenvolvimento é feito simultaneamente; existem ferramentas implementadas para integrar as mudanças em uma mesclagem; 
+>* **`Branches e Merges`**: Simplifica a criação e manutenção de branches onde o desenvolvimento é feito simultaneamente; existem ferramentas implementadas para integrar as mudanças em uma mesclagem; 
 >
->* Desempenho: Embora o Git tenha algumas pegadas, isso não é um problema mesmo com projetos grandes.
+>* **`Desempenho`**: Embora o Git tenha algumas pegadas, isso não é um problema mesmo com projetos grandes.
 >***
 &nbsp;
 
@@ -136,13 +137,12 @@
 
 ## ✨ Big Data
 ### 💡 Introdução ao Big Data
-Big Data refere-se ao conjunto de tecnologias e práticas usadas para coletar, armazenar, processar e analisar grandes volumes de dados que não podem ser gerenciados de maneira eficiente com as ferramentas habituais de *Banco de Dados*. Os dados do Big Data são caracterizados pelo que é conhecido como os `4V's`.
+**Big Data refere-se ao conjunto de tecnologias e práticas usadas para coletar, armazenar, processar e analisar grandes volumes de dados que não podem ser gerenciados de maneira eficiente com as ferramentas habituais de *Banco de Dados*. Os dados do Big Data são caracterizados pelo que é conhecido como os `4V's`.**
 
 * **`Volume`**: A quantidade de dados que são gerados e coletados é gigante e, muitas vezes, medida em *petabytes* e *exabytes*.
 * **`Variedade`**: Os dados vêm de diversas fontes e podem ser tanto dados *estruturados*, *semi-estruturados* ou *não estruturados*.
 * **`Velocidade`**: Atualmente, as informações circulam em alta velocidade e em tempo real. Por exemplo, em redes sociais, milhões de posts são publicados a cada segundo. Para aproveitar ao máximo os dados, é necessário que a velocidade de resposta seja rápida e eficiente.
 * **`Veracidade`**: O último “V” destaca a importância da confiabilidade e
-
  qualidade dos dados. Como lidamos com uma quantidade tão grande de informações, é fundamental garantir a veracidade dos dados para evitar decisões equivocadas. A veracidade está relacionada à autenticidade, integridade e precisão dos dados, garantindo que eles sejam confiáveis e relevantes para as análises.
 &nbsp;
 
