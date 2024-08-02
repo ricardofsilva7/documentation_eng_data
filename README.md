@@ -96,10 +96,12 @@
  * Crie uma btanch de *`feature`* a partir de *`develop`*.
  * Desenvolva a nova funcionalidade
  * Mescal a branch de *`feature`* de volta em *`develop`*.
+
  **2. Preparação para lançamento**
  * Crie uma brnach de *`release`* a partir de *`develop`*.
  * Faça os ajustes finais e correção. 
  * Mescala a branch de *`release`* em *`main`* e *`develop`*, e marca o `commit` com uma tag.
+ 
  **3. Correções urgentes**
 * Crie uma branch de *hotfix* a partir de *`main`*.
 * Faça as correções necessárias.
