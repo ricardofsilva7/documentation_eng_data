@@ -136,6 +136,7 @@
 &nbsp;
 
 ## ✨ Big Data
+
 ### 💡 Introdução ao Big Data
 **Big Data refere-se ao conjunto de tecnologias e práticas usadas para coletar, armazenar, processar e analisar grandes volumes de dados que não podem ser gerenciados de maneira eficiente com as ferramentas habituais de *Banco de Dados*. Os dados do Big Data são caracterizados pelo que é conhecido como os `4V's`.**
 
