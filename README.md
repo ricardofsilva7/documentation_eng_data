@@ -15,7 +15,7 @@
 ## ✨ Engenharia de Dados
 
 ### 💫 Introdução
-A Engenharia de Dados faz parte da área de *Processamento e Análise de Dados* que se concentra na criação e manutenção de *Sistemas e Infraestruturas*, sendo necessário coletar, armazenar, processar e analisar os dados, geralmente em grandes volumes. Primeiramente, qualquer dado recebido é tratado e posteriormente utilizado para tomadas de decisão, análise de negócios e até mesmo para desenvolvimento de modelos de aprendizado de máquinas (ML).
+**A Engenharia de Dados faz parte da área de *Processamento e Análise de Dados* que se concentra na criação e manutenção de *Sistemas e Infraestruturas*, sendo necessário coletar, armazenar, processar e analisar os dados, geralmente em grandes volumes. Primeiramente, qualquer dado recebido é tratado e posteriormente utilizado para tomadas de decisão, análise de negócios e até mesmo para desenvolvimento de modelos de aprendizado de máquinas (ML).**
 
 ***
 ### 🔖 Principais Atividades
@@ -107,8 +107,8 @@ A Engenharia de Dados faz parte da área de *Processamento e Análise de Dados* 
 * Faça as correções necessárias.
 * Mescle a branch *hotfix* em *`main`* e *`develop`*, e marque o `commit` com uma tag.
 
-***
-## ✅ Vantagens do Git
+>***
+>## ✅ Vantagens do Git
 >
 >* Distribuído: Cada desenvolvedor tem uma cópia completa do repositório, incluindo todo o histórico do projeto; 
 >
@@ -119,7 +119,7 @@ A Engenharia de Dados faz parte da área de *Processamento e Análise de Dados* 
 >* Branches e Merges: Simplifica a criação e manutenção de branches onde o desenvolvimento é feito simultaneamente; existem ferramentas implementadas para integrar as mudanças em uma mesclagem; 
 >
 >* Desempenho: Embora o Git tenha algumas pegadas, isso não é um problema mesmo com projetos grandes.
-***
+>***
 &nbsp;
 
 **Recursos Utilizados:**  
