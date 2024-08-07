@@ -130,6 +130,7 @@
 - [Artigos]
 ***
 &nbsp;
+
 ## ✨ Bases Analíticas
 ### 💫 Conceito
 **Bases análitcas são sistemas e tecnologias projetados para facilitar a análise de grandes volumes de dados. São otimizados para consultas complexas e operações analíticas, permitindo que as organizações extraiam insights valiosos e seus dados. As bases analíticas são frequentemente usadas em conjunto com *data warehouses* e *data lakes* para suportar diversas necessidades de análise de dados.**
