@@ -17,11 +17,11 @@
 ## ✨ Modelagem de Dados
 
 ### 💫 Conceito
-**A *Modelagem de Dados* é utilizada para criar um modelo para os dado que serão utilizados em um sistema de informação. Ele define as estruturas lógicas e as relações entre os diferentes tipos de dadodas, se tornando uma base para a construção de Bancos de Dados, e sistemas de gerenciamento de informações. A modelagem de dados busca garantir que os dados sejam organizados de maneira eficiente e que possam ser acessados e manipulados de maneira eficiente**
+**A *Modelagem de Dados* é utilizada para criar um modelo para os dados que serão utilizados em um sistema de informação. Ele define as estruturas lógicas e as relações entre os diferentes tipos de dadodas, se tornando uma base para a construção de Bancos de Dados, e sistemas de gerenciamento de informações. A modelagem de dados busca garantir que os dados sejam organizados de maneira eficiente e que possam ser acessados e manipulados de maneira eficiente**
 
 ***
 ### 🔖 Por que a Modelagem de Dados é importante 
-**As organizações coletam volumes de dados em grande quantidade e de várias fontes diferentes. Entretanto, dados brutos não são o suficiente, voce precisa analisar dados para absorver insights acionáveis e que possam orientar na tomada de decisão. Qualquer análise precisa de dados exige, *coleta, armazenamento e processamento de dados eficientes*. Existem muitas tecnologias de banco de dados e ferramentas de processamento de dados, e diferentes conjuntos de dados exigem ferramentas distintas para uma análise eficiente. A modelagem de dados nos da a chance de entender os dados e fazer as escolhas tecnológicas certas para armazenar e gerenciar esses dados. A *Modelagem de Dados* traz os seguintes benefícios:**
+**As organizações coletam volumes de dados em grande escala e de várias fontes diferentes. Entretanto, dados brutos não são o suficiente, voce precisa analisar dados para absorver insights acionáveis e que possam orientar na tomada de decisão. Qualquer análise precisa de dados exige: *coleta, armazenamento e processamento de dados eficientes*. Existem muitas tecnologias de banco de dados e ferramentas de processamento de dados, e diferentes conjuntos de dados exigem ferramentas distintas para uma análise eficiente. A modelagem de dados nos da a chance de entender os dados e fazer as escolhas tecnológicas certas para armazenar e gerenciar esses dados. A *Modelagem de Dados* traz os seguintes benefícios:**
 
 - *Reduz erros no desenvolvimento de softwares de Banco de Dados*
 - *Facilita a velocidade e eficiência da concepção e criação de Banco de Dados*
@@ -33,11 +33,11 @@
 ### 📝 Como modelos de dados são usados na prática?
 **Existem três estilos básicos de modelos de dados que iremos explanar a seguir**
 
-1. **Modelos de dados conceituais:** Geralmente utilizado para explorar conceitos do domínio com os envolvidos no projeto. Em equipes ágeis, modelos conceituais de nível são normalmente criados como parte do esforço inicial do entendimento dos requisitos do sistema, pois eles são usados para explorar as estruturas e conceitos de negócios estáticos de alto nível
+1. **Modelos de dados conceituais:** Geralmente utilizado para explorar conceitos do domínio com os envolvidos no projeto. Em equipes ágeis, modelos conceituais de alto nível são normalmente criados como parte do esforço inicial do entendimento dos requisitos do sistema, pois eles são usados para explorar as estruturas e conceitos de negócios estáticos de alto nível
 
-2. **Modelos lógicos de dados (MLD's):MLD's** são usados para explorar os conceitos do domínio e seus realcionados. Pode ser feito para o escopo de um simples projeto ou para uma empresas inteira. **MLD's**  descrevem os tipos de entidades lógicas, tipicamente referenciadas simplesmente como tipo de entidade, os atributos de dados que descrevem essas entidades e os relacionamentos entre entidades, **MLD's** são raramente usados em projetos ágeis apesar de normalmente estarem presentes em projetos tradicionais (onde eles poucas vezes adicionam muito valor na prática)
+2. **Modelos lógicos de dados (MLD's): MLD's** são usados para explorar os conceitos do domínio e seus realcionados. Pode ser feito para o escopo de um simples projeto ou para uma empresas inteira. **MLD's**  descrevem os tipos de entidades lógicas, tipicamente referenciadas simplesmente como tipo de entidade, os atributos de dados que descrevem essas entidades e os relacionamentos entre entidades, **MLD's** são raramente usados em projetos ágeis apesar de normalmente estarem presentes em projetos tradicionais (onde eles poucas vezes adicionam muito valor na prática)
 
-3. **Modelos físicos de dados (MFD's): MFD's** são usdos para projetoar o esquema interno de um banco de dados, descrevendo as tabelas de dados, as colunas de dados das tabelas e o rlacionamento entre as tabelas. **MFD's** normlmente são bastante úteis em projetos ágeis e tradicionais.
+3. **Modelos físicos de dados (MFD's): MFD's** são usados para projetar o esquema interno de um banco de dados, descrevendo as tabelas de dados, as colunas de dados das tabelas e o relacionamento entre as tabelas. **MFD's** normlmente são bastante úteis em projetos ágeis e tradicionais.
 
 &nbsp;
 
@@ -52,7 +52,7 @@
 ![Figura 2](/assets/image002.jpg)
 
 ***
->### 🔧 Ferramentas de modelagem de dados
+>### 🔧 Ferramentas de Modelagem de Dados
 >- `ER/Studio`
 >- `IBM InfoSphere Data Architect`
 >- `Microsoft Visio`
@@ -61,7 +61,7 @@
 >- `MySQL Workbench`
 ***
 ### Aplicação de modelagem de dados
-1. **Sistemas de Gerenciamento de Relacionamento com o Cliente (CRM):** *Estruturação de dados de clientes, interações e histórico de compras muito utilizado por instituições financeiras para acompanhamento de clientes.*
+1. **Sistemas de Gerenciamento de Relacionamento com o Cliente (CRM):** *Estruturação de dados de clientes, interações e histórico de compras, muito utilizado por instituições financeiras para acompanhamento de clientes.*
 2. **Sistemas de Planejamento de Recursos Empresariais (ERP):** *Organização de dados sobre finanças, logisticas, recursos humanos, geração de notas fiscais e emails focados.*
 
 3. **Data Warehouse:** *Integração e estruturação de dados de várias fontes para análise e relatórios.*
@@ -86,7 +86,7 @@
 **Alta Performance e Escalabilidade**
 * **Consulta Rápida**: Capaz de executar consultas SQL em conjuntos de dados de forma extremamente rápido.
 
-* **Escabilidade Automática:** Gerencia automaticamente a escla de armazenamento e recursos computacionais conforme necessário.
+* **Escabilidade Automática:** Gerencia automaticamente a escala de armazenamento e recursos computacionais conforme necessário.
 
 **Armazenamento de Dados**
 * **Colunar**:  Utiliza um formato de armazenamento colunar que otimiza o desempenho de consultas.
@@ -100,7 +100,7 @@
 * **ETL/ELT**: Suporta pipelines de ETL/ELT para ingestão de dados.
 * **API e Conectores**: Integração com API's e conectores para diversas outras ferramentas de BI.
 
-5. **Análise e Machine Learning**
+**Análise e Machine Learning**
 * **Análise em Tempo Real**: Capaz de realizar análises em tempo real com suporte a dados em streaming.
 * **Machine Learning Integrado**: Integração com o BigQuery ML, permitindo a criação e execução de modelos de Machine Learning diretamente na base de dados.
 
@@ -158,7 +158,7 @@
 **`Apache Spark`**
 - **Descrição:** *Apach Spark* é uma plataforma de processamento de dados de código aberto que oferece suporte a processamento em tempo real ou em batch.
 
-- **Características:** Alta velocidade de processamento suporte a *API's* em várias linguagens (Java, Scala, Python, R) integração com Hadoop e bibiliotecas para *Machine Learning, SQL e Data Warehouse*.
+- **Características:** Alta velocidade de processamento suporte a *API's* em várias linguagens (Java, Scala, Python, R) integração com Hadoop e bibliotecas para *Machine Learning, SQL e Data Warehouse*.
 
 - **Exemplos de execução:** Análise  de Big Data, Machine Learning, processamento de dados em tempo real, e integração com Data Lakes e Data Warehouse. 
 
@@ -167,7 +167,7 @@
 
 - **Características:**  Escalabilidade, integração com ferramentas de visualização de dados, relatórios financeiros.
 
-- **Exemplos de execução:** Business Intelligence, integração coom ferramentas de visualização de dados, relatórios financeiros. 
+- **Exemplos de execução:** Business Intelligence, integração com ferramentas de visualização de dados, relatórios financeiros. 
 
 **`Microsoft Azure Synope Analytics`**
 - **Descrição:** *Azure* é um serviço de análise ilimitada que combina data warehousing empresarial e análise de Big Data. 
@@ -245,7 +245,7 @@
 ***
 &nbsp;
 **Desafios Encontrados:**  
-*Acredito que no meu caso, o desafio é absorver todo conteúdo, considerando que venho de outra área de atuação e apesar de já ter evoluído bastante, ainda sinto dificuldade com as nomenclaturas e termos técnicos. Minha ideia é ir aprofundando os conteúdos conforme eu for sentindo que realmente aprendi.*
+*Acredito que no meu caso, o desafio é absorver todo conteúdo, considerando que venho de outra área de atuação e apesar de já ter evoluído bastante, ainda sinto dificuldade com as nomenclaturas e termos técnicos. Minha ideia é ir aprofundando os conteúdos conforme eu for absorvendo de fato o conteúdo.*
 
 **Feedback e Ajustes:**  
 *Descreva qualquer feedback que você recebeu e como você ajustou sua abordagem de estudo com base nesse feedback.*
