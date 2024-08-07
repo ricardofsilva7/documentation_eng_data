@@ -60,7 +60,7 @@
 >- `PowerDesign`
 >- `MySQL Workbench`
 ***
-### Aplicação de modelagem de dados
+### 💡 Aplicação de modelagem de dados
 1. **Sistemas de Gerenciamento de Relacionamento com o Cliente (CRM):** *Estruturação de dados de clientes, interações e histórico de compras, muito utilizado por instituições financeiras para acompanhamento de clientes.*
 2. **Sistemas de Planejamento de Recursos Empresariais (ERP):** *Organização de dados sobre finanças, logisticas, recursos humanos, geração de notas fiscais e emails focados.*
 
@@ -130,6 +130,7 @@
 - [Artigos]
 ***
 &nbsp;
+
 ## ✨ Bases Analíticas
 ### 💫 Conceito
 **Bases análitcas são sistemas e tecnologias projetados para facilitar a análise de grandes volumes de dados. São otimizados para consultas complexas e operações analíticas, permitindo que as organizações extraiam insights valiosos e seus dados. As bases analíticas são frequentemente usadas em conjunto com *data warehouses* e *data lakes* para suportar diversas necessidades de análise de dados.**
@@ -147,7 +148,7 @@
 **5. Ferramentas de Análise:** *Incluem ferramentas para mineração de dados, Machine Learning, visualização de dados e análise estatística.*
 
 ***
-### ✅ Exemplos de Tecnologias de Bases Analíticas 
+### 🏷️ Exemplos de Tecnologias de Bases Analíticas 
 **`OLAP (Online Analytical Processing)`**
 - **Descrição:** *OLAP* refere-se a tecnologias que permitem a realização de consultas multidimensionais sobre grandes volumes de dados, facilitando análises completas e a exploração interativo dos dados.
 
