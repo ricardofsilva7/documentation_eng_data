@@ -8,6 +8,7 @@
 2. **BigQuery**
 3. **Bases Analíticas**
 4. **Transacional (OLTP)** 
+5. **Mensageria**
 
 ***
 
@@ -243,6 +244,66 @@
 - [Pesquisas no Google]
 - [Artigos]
 
+***
+## ✨ Mensageria
+ ### 💫 Conceito
+ **Mensageria é um conceito fundamental em sistemas distribuídos em redes de computadores, que envolve a troca de mensagem entre diferentes componentes ou sistemas. O objetivo principal da mensageria é facilitar a comunicação e a coordenação entre as partes de um sistema ou entre sistemas distintos de maneira assíncrona e desacopla**
+
+***
+ ### 🔖 Principais Características
+
+ **Mensagem**
+ 
+ Unidades de dados que são transmitidas entre sistemas ou componentes. Cada mensagem pode conter um _payload_ (dados reais) e _metadados_ (informações adicionais como cabeçalho e atributos).
+ 
+ **Pub/Sub**
+ 
+ Em um sistema de mensageria baseado em _PUB/SUB_ (publicação/inscrição), um publicador envia mensagens para um tópico, enquanto um assinante se inscreve em tópicos para receber mensagens.
+
+**Tópicos e Filas**
+
+- **Tópicos:** Entidades para onde as mensagens são publicadas, assinantes se inscrevem em tópicos para receber mensagens. Esse modelo é comum em sistemas _pub/sub_.
+- **Filas:** Estruturas que armazenam mensagens para que possam ser processadas pelos consumidores. As mensagens são retiradas da fila por consumidores, um de cada vez, típico em sistemas de filas de mensagem.
+
+**Broker de Mensagens**
+
+Componente que gerencia o envio e o recebimento de mensagens. Ele garante que as mensagens sejam entregues aos destinatários corretos e pode fornecer funcionalidades como persistência, roteamento e gerenciamento de transações 
+
+**Desacoplamento:** 
+
+Mensageria permite que os sistemas se comuniquem sem a necessidade de um conhcimento direto sobre o estado ou a disponiblidade dos outros sistemas, promovendo um acomplamento fraco.
+
+**Assíncro:**
+
+ Em sistemas de mensageria, a comunicação é frequentemente assíncrona, o que signifca que o remetente não precisa esperar que o destinatário recebe ou processe a mensagem antes de continuar com sua própria execução. 
+
+***
+### 🏷️ Tipos de Mensageria
+
+1. **Pub/Sub:** O modelo _pub/sub_ permite que um componente (publicadas) envia mensagens para um tópico, e os componentes interessados (assinantes) recebem as mensagens. É importante para disseminar as informações para múltiplos consumidores simultaneamente.
+
+2. **Fila de Mensagens:** As mensagens armazenadas em uma fila e processadas por consumidores. Este modelo é usado para garantir que as mensagens sejam processadas em ordem e para balancear a carga entre múltiplos consumidores.
+
+3. **Mensagem Ponto a Ponto:** Envolve a troca de mensagens entre dois componentes diretamente, sem intermediários. É útil para comunicações diretas e específicas entre sistemas.
+
+***
+### ➕ Sistemas de Mensageria
+- **RabbitMQ:** *Uma plataforma de mensagens que supostas filas e troca de mensagens baseada em tópicos.*
+- **Apache Kafka:** *Uma plataforma distribuída para o processamento de sistemas de dados em tempo real.*
+- **Google Cloud Pub/Sub:** *Serviço gerenciado para publicação e inscrição de mensagens*
+- **Apache ActiveMQ:** *Sistema de mensagens de código aberto que suporta vários padróes de mensageria*
+
+***
+### 🔒️ Conclusão
+
+A mensageria é uma tecnologia essencial para a construção de sistemas distribuídos modernos, permitindo comunicação eficiente, escalável e resiliente a diferentes componentes e serviços.
+
+
+***
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github]
+- [Pesquisas no Google]
+- [Artigos]
 ***
 &nbsp;
 **Desafios Encontrados:**  
