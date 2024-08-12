@@ -4,11 +4,11 @@
 **Data: 07/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. **Modelagem de Dados**
-2. **BigQuery**
-3. **Bases Analíticas**
-4. **Transacional (OLTP)** 
-5. **Mensageria**
+1. [**Modelagem de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-modelagem-de-dados)
+2. [**BigQuery**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-bigquery)
+3. [**Bases Analíticas**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-bases-anal%C3%ADticas)
+4. [**Transacional (OLTP)**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-transacional-oltp)
+5. [**Mensageria**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-mensageria)
 
 ***
 
@@ -245,6 +245,8 @@
 - [Artigos]
 
 ***
+&nbsp;
+
 ## ✨ Mensageria
  ### 💫 Conceito
  **Mensageria é um conceito fundamental em sistemas distribuídos em redes de computadores, que envolve a troca de mensagem entre diferentes componentes ou sistemas. O objetivo principal da mensageria é facilitar a comunicação e a coordenação entre as partes de um sistema ou entre sistemas distintos de maneira assíncrona e desacopla**
@@ -315,4 +317,8 @@ A mensageria é uma tecnologia essencial para a construção de sistemas distrib
 **Próximos Passos:**  
 *Os próximos passos são continuar a trilha de conhecimento, buscar alimentar mais as informações de cada trilha e continuar mantendo o padrão de estilização.*
 
+
+**Relatórios:**
+
+[**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
 ***
