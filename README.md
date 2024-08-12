@@ -4,9 +4,9 @@
 **Data: 02/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. **Engenharia de Dados**
-2. **Git**
-3. **Big Data** 
+1. [**Engenharia de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1#-engenharia-de-dados)
+2. [**Git**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1#-git)
+3. [**Big Data**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1#-big-data) 
 
 ***
 # 📚 Resumo dos Módulos 
@@ -80,19 +80,19 @@
 * **`Fork`**: É a criação de uma cópia independente de um repositório, normalmente para contribuir com um projeto sem afetar ou acessar o repositório principal.
 
 ***
-## 📦 Principais Componentes do GitFlow
-### Branches Principais
+### 📦 Principais Componentes do GitFlow
+#### 🔧 Branches Principais
 
 * **`Main`**: Contém o código de produção estável, cada `commit` nesta branch representa uma nova versão de lançamento, mas antes de chegar na `main`, o mesmo código precisou passar por processos de validação e branches 'temporárias'.
 
 * **`Develop`**: Contém o código em desenvolvimento contendo as últimas alterações aprovadas, serve como base para novas funcionalidades e integrações.
 
-### Branches de Suporte
+#### ⬆️ Branches de Suporte
 * **`Feature`**: Utilizada para desenvolver novas funcionalidades. Deriva de *`develop`* e é mesclada de volta em `develop` após a funcionalidade ser concluída.
 * **`Release`**: Utilizada para quando é lançada uma nova versão. Deriva de `develop`, após ajustes finais, é mesclada em *`main`* e *`develop`* após correção/revisão.
 
 ***
-## ✔️ Fluxo de Trabalho
+### ✔️ Fluxo de Trabalho
 **1. Desenvolvimento de funcionalidades**
 * Crie uma branch de *`feature`* a partir de *`develop`*.
 * Desenvolva a nova funcionalidade.
@@ -109,7 +109,7 @@
 * Mescle a branch *hotfix* em *`main`* e *`develop`*, e marque o `commit` com uma tag.
 
 >***
->## ✅ Vantagens do Git
+>### ✅ Vantagens do Git
 >
 >* **`Distribuído`**: Cada desenvolvedor tem uma cópia completa do repositório, incluindo todo o histórico do projeto; 
 >
