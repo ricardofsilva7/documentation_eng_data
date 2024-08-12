@@ -180,4 +180,9 @@
 
 &nbsp;
 
+**Relatorios:**
+
+[**Semana 2**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
+&nbsp;
+
 ***
