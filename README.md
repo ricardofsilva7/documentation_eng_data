@@ -71,9 +71,9 @@
  **A modelagem de dados é uma etapa fundamental na criação de sistemas de Banco de Dados. Com esses processos é possível criar a estrutura do banco de dados da empresa ou do projeto para alcançar os objetivos do negócio com o armazenamento de dados. Por isso, o modelo  de dados deve ser bem projetado para não gerar duplicidade de informações, armazenar dados em excesso e causar conflito de dados nas análises.**
 ***
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/modelagem_de_dados.md)
+- [Voitto](https://voitto.com.br/blog/artigo/modelagem-de-dados)
+- [DevMedia](https://www.devmedia.com.br/modelagem-de-dados-tutorial/20398)
 ***
 &nbsp;
 
@@ -126,9 +126,9 @@
  **BigQuery é uma ferramenta extraordinárias, principalmente para empresas e para o mercado de trabalho, o suporte a grandes volumes de dados, o elevado desempenho, a análise em tempo real, facilidade na integração de API's, e o modelo de pagamento flexivel**
 ***
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/bigquery.md)
+- [Artigo](https://metricasboss.com.br/artigos/o-que-e-o-google-big-query-e-como-utilizar)
+- [Predicta](hhttps://predicta.net/bigquery-entenda-como-funciona-o-armazenamento-de-dados-na-nuvem-do-google/)
 ***
 &nbsp;
 
@@ -240,9 +240,9 @@
 ***
 
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/analitico.md)
+- [Oracle](https://www.oracle.com/br/database/what-is-oltp/)
+- [Artigo](https://nobug.com.br/glossario/o-que-e-oltp-online-transaction-processing/)
 
 ***
 &nbsp;
@@ -303,9 +303,9 @@ A mensageria é uma tecnologia essencial para a construção de sistemas distrib
 
 ***
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/mensageria.md)
 - [Pesquisas no Google]
-- [Artigos]
+- [Artigo](https://crmpiperun.com/blog/mensageria/#:~:text=A%20mensageria%2C%20ou%20%E2%80%9Cmessaging%E2%80%9D,conversa%20direta%20com%20um%20vendedor.)
 ***
 &nbsp;
 **Desafios Encontrados:**  
