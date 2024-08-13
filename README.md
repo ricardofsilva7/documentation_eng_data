@@ -123,10 +123,18 @@
 >***
 
 **Principais comandos:**
-- [*"git init"*]
-- [*"git `commit`"*]
-- [*"git push"*]
-- [*"git pull"*]
+- [*`git init`*]
+
+- [*`git commit -m <mensagem>`*]
+- [*`git push -u origin <branch>`*]
+- [*`git pull`*]
+- [*`git clone <link>`*]
+- [*`git branch`*]
+- [*`git add <arquivo>`*]
+- [*`git status`*]
+- [*`git checkout`*]
+- [*`git merge <branch>`*]
+- [*`git branch -d <branch>`*]
 ***
 **Recursos Utilizados:**  
 - [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/git.md)
