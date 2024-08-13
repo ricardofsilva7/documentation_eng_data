@@ -50,9 +50,9 @@
 ***
 
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/introducao_a_engenharia_de_dados.md)
+- [Artigo - Somativa](https://www.somativa.com.br/blog/engenharia-de-dados-armazenamento-datalake-datawarehouse/)
+- [Artigo - Alura](https://www.alura.com.br/artigos/engenharia-dados)
 ***
 &nbsp;
 
@@ -121,17 +121,16 @@
 >
 >* **`Desempenho`**: Embora o Git tenha algumas pegadas, isso não é um problema mesmo com projetos grandes.
 >***
-&nbsp;
-
-**Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
 
 **Principais comandos:**
 - [*"git init"*]
 - [*"git `commit`"*]
 - [*"git push"*]
+- [*"git pull"*]
+***
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/git.md)
+- [Artigo](https://www.hostinger.com.br/tutoriais/o-que-github)
 ***
 &nbsp;
 
@@ -163,12 +162,10 @@
 
 ***
 &nbsp;
-
 **Recursos Utilizados:**  
-- *[Trilha de Conhecimento - Github]*
-- *[Pesquisas no Google]*
-- *[Artigos]*
-
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/bigdata.md)
+- [Artigo - Awari](https://awari.com.br/os-4vs-do-big-data-entendendo-as-bases/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Os%204Vs%20do%20Big%20Data:%20Entendendo%20as%20Bases)
+***
 **Desafios Encontrados:**  
 *Acredito que no meu caso, o desafio é absorver todo conteúdo, considerando que venho de outra área de atuação e apesar de já ter evoluído bastante, ainda sinto dificuldade com as nomenclaturas e termos técnicos. Meu plano é ir aprofundando os conteúdos conforme eu for sentindo que realmente aprendi.*
 
@@ -183,6 +180,8 @@
 **Relatorios:**
 
 [**Semana 2**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
+
+[**Semana 3**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana3)
 &nbsp;
 
 ***
