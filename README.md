@@ -6,7 +6,8 @@
 **Módulos/Etapas Feitas:**  
 1. [**Virtualização**](https://github.com/2RP-Squad404/Ricardo_Silva#-virtualiza%C3%A7%C3%A3o)
 2. [**Docker**](https://github.com/2RP-Squad404/Ricardo_Silva#-docker)
-3. [**Kubernetes**]()
+3. [**Kubernetes**](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes)
+4. [**Computação em Nuvem**]()
 
 ***
 
@@ -26,7 +27,7 @@
 - **Virtualização de Desktop:** *Possibilita implantar e controlar vários ambientes de desktop simulados por meio de um Administrador Central.*
 - **Virtualização de Servidores:** *Permite aos administradores particionar servidores em configurações distintas a desempenhar funções específicas.*
 - **Virtualização de Sistema Operacional:** *Torna possível a execução de vários sistemas operacionais em um único computador.*
-- **Virtualização de Função de Rede:** *Supera as funções de uma rede (como serviços de diretório, compartilhamento de arquivos e configuração de IP) para distribuí-las entre os ambientes.
+- **Virtualização de Função de Rede:** *Supera as funções de uma rede (como serviços de diretório, compartilhamento de arquivos e configuração de IP) para distribuí-las entre os ambientes.*
 ***
 
 ### 📝 Principais Características
@@ -196,17 +197,74 @@ Um aplicativo moderno consiste em muitos contêineres, operá-los em produção 
 
 ### 🔒️ Conclusão
  **O Kubernetes representa uma revolução na forma como os aplicativos são gerenciados, fornecendo uma plataforma poderosa e flexível para a implantação e orquestração eficientes de contêineres em escala. Com a adoçao generalizada e evolução contínua, o Kubernetes se tornou um pilar fundamental da infraestrutura moderna de TI, capaitando as empresas a impulsionar a invocação e fornecer serviços confiáveis em um mundo cada vez mais digital.**
+***
+&nbsp;
+## ✨ Computação em Nuvem
+### 💫 Conceito
+
+**A Computação em Nuvem é a disponibilidade sob demanda dos recursos de computação como serviços na internet. Assim, elimina a necessidade das empresas comprarem, configurarem ou gerenciarem a Infraestrutura. Desse modo, elas pagam apenas pela utilização, nesse modelo não há licenças ou contratos rígidos de prestação de serviço. Tudo é adquirido conforme a necessidade dp cliente e do negócio.**
+
+**Existem três tipos de modelos de serviços de computação em nuvem:**
+
+- *A infraestrutura como serviço, oferece serviços de computação e armazenamento **(IaaS)**.*
+- *A plataforma como serviço, ofere um ambiente de desenvolvimento **(PaaS)**.*
+- *Implantação para criação de aplicativos em nuvem e o software como serviço entrega os aplicativos como serviços **(SaaS)**.*
+***
+### Vantagens da Computação em Nuvem
+Há diversas vantagens de usar a computação em nuvem. Entenda as principais:
+
+**Eficiência:** É possível desenvolver novas aplicações e lançá-las rapidamente sem se preocupar com a infraestrutura.
+
+**Flexibilidade:** Através da arquitetura da *Computação em Nuvem*, as empresas podem acessar os serviços de nuvem de qualquer lugar com uma conexão com a internet, aumentando ou reduzindo a escala de acordo com a necessidade.
+
+**Valor Estratégico:** Provedores de Nuvem, como o *Google Cloud*, estão alinhados às recentes inovações para fonecê-las como serviços. Assim, as empresas tornam-se mais competitivas e alcançam um retorno de investimento maior do que se tivesse adquirido tecnologias que podem se tornar obsoletas em curto prazo.
+
+**Segurança:** Os riscos de segurança da computação em nuvem são considerados baixos. A segurança da computação da Cloud é reconhecido como mais forte do que a de data centers corporativos, por exemplo, graças à profundidade e amplitude dos mecanismos de segurança que os processos de nuvem implementam.
+**Economia:** Independente do modelo de serviço de computação em nuvem escolhido, as companhias pagam somente pelos recursos utilizados. Assim, você não precisa  sobrecarregar a capacidade do data center para atender a picos de demanda ou ao crescimento dos negócios, Com isso, a equipe de TI pode se dedicar a projetos mais estratégicos.
+***
+
+### 🏷️ Casos de Uso
+O serviço de nuvem da Google por exemplo, oferece uma ampla variedade de aplicativos que podem beneficiar as organizações. Veja os principais:
+
+- **Escalonamento de Infraestrutura:** As organizações das diferentes indústrias tem demandas e necessidades particulares nas quais a nuvem pode ajudar. A computação em nuvem atende as exigências por aumento de infraestrutura a qualquer momento.
+
+- **Recuperação de desastres:** As empresas utilizam a computação em nuvem para fazer Backup de Segurança dos recursos digitais, em vez de deixar todos os dados no data center que pode sofrer algum prejuízo, como inovações, desastres naturais.
+
+- **Armazenamento de Dados:** Possibilita aliviar data centers sobrecarregados armazenando grandes volumes de dados, tornando-os mais acessíveis, simplificando a análise e o backup dos mesmos.
+
+- **Análise de dados:** A nuvem forcene inúmeros recursos para processar grandes volumes de dados (*Big Data*), acelerando a pequisa e reduzindo o tempo de insights.
+***
+
+### 🗃️ Google Cloud Dataflow
+O **Google Cloud Dataflow** é um serviço de processamento de dados em tempo real, e em lote, oferecido pela *Google Cloud Platform*. Permite que os desenvolvedores criem e executem pipelines de processamento de dados de forma escalável e eficiete, sem se preocupar com a infraestrutura subjacente.
+***
+
+### Vantagens do Google Cloud Dataflow
+O Dataflow oferece uma série de benefícios para os desenvolvedores e empresas que precisam lidar com grandes volumes de dados: 
+
+- **Escalabildade:** O serviço é capaz de processar grandes quantidades de dados de forma eficiente, escalando automaticamente de acordo com a demanda.
+
+- **Flexibilidade:** Possibilita escrever códigos em várias linguagens e utilizar bibliotecas e frameworks populares, como *Apache Beam*, para implementar suas transformações de dados.
+
+- **Integração com outros serviços Google:** O Dataflow pode ser facilmente integrado com outros serviços da plataforma, como *Big Query*, *Pub/Sub* e *Cloud Storage*, permitindo a criação de pipelines de dados ompletos.
+
+- **Monitoramento e gerenciamento simplificados:** O Dataflow oferece ferramentas avançadas de monitoramente e gerenciamento, permitindo que os desenvolvedores acompanham o desempenho de seus pipelines e identifiquem possíveis problemas.
+***
+
+### 🔒️ Conclusão
+O Dataflow é uma poderosa ferramenta para processamento de dados em tempo real e em lote. Com sua escalabiliade, flexibilidade e integração com outros serviços do Google Cloud Platform, ele ofece uma solução completa para lidar com grandes volumes de dados e realizar análises avançadas.
 
 ***
 &nbsp;
+
 **Desafios Encontrados:**  
-*Acredito que no meu caso, o desafio é absorver todo conteúdo, considerando que venho de outra área de atuação e apesar de já ter evoluído bastante, ainda sinto dificuldade com as nomenclaturas e termos técnicos. Minha ideia é ir aprofundando os conteúdos conforme eu for absorvendo de fato o conteúdo.*
+*Os assuntos abordados nessa trilha, foram um pouco mais fácil para entender, pois algumas ferramentas como CRM, ERP, até mesmo o Big Query, eu ja utilizei recentemente ou no passado, porem o restante do conteúdo, ainda sinto mais dificuldade relativamente alta para absorver.*
 
 **Feedback e Ajustes:**  
 *Descreva qualquer feedback que você recebeu e como você ajustou sua abordagem de estudo com base nesse feedback.*
 
 **Próximos Passos:**  
-*Os próximos passos são continuar a trilha de conhecimento, buscar alimentar mais as informações de cada trilha e continuar mantendo o padrão de estilização.*
+*Os próximos passos são continuar a trilha de conhecimento, buscar alimentar mais as informações de cada trilha e continuar mantendo o padrão de estilização e organização.*
 
 
 **Relatórios:**
@@ -214,3 +272,4 @@ Um aplicativo moderno consiste em muitos contêineres, operá-los em produção 
 [**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1)
 
 [**2ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
+***
