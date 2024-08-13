@@ -1,13 +1,12 @@
 # 📜 Relatório de Estudos
 
 **Nome do Estagiário: Ricardo Silva**  
-**Data: 07/08/2024**
+**Data: 14/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Virtualização**]()
-2. [**Docker**]()
+1. [**Virtualização**](https://github.com/2RP-Squad404/Ricardo_Silva#-virtualiza%C3%A7%C3%A3o)
+2. [**Docker**](https://github.com/2RP-Squad404/Ricardo_Silva#-docker)
 3. [**Kubernetes**]()
-4. [**Computação em Nuvem**]()
 
 ***
 
@@ -92,8 +91,9 @@
 A tecnologia **Docker** usa o *Kernel* do *Linux* e funcionalidades do Kernel, como *Groups* e *homespaces*, para segregar processos. Assim, eles podem ser executados de maneira independente. O objetivo dos contêineres é criar independência: a habilidade de executar diversos processos e app's separadamente para utilizar melhor a infraestrutura e, ao mesmo tempo, manter a segurança que você teria em sistemas separados.
 
  As ferramentas de contêiner, incluindo o Docker, incluem um modelo de implantação com base em imagens. Isso facilita o compartilhamento de uma aplicação ou conjunto de serviços, incluindo todas as dependências deles em vários ambientes. O Docker também automatiza a implantação da aplicação *(ou de conjunto de processos que constituem um app)* dentro desse ambiente de contêiner. Essas ferramentas baseadas no contêiner Linux fazem com que o Docker seja exclusivo e fácil de usar. Elas também oferecem aos usuários acesso sem precedentes a apps e total controle sobre as versões  distribuição, além da habilidade de impantar com rapidez.
+***
 
- ### Docker e Contêineres Linux: qual a diferença?
+ ### ✔️ Docker e Contêineres Linux: qual a diferença?
 
  Embora isso posta causar confusão, o Docker não é o mesmo que um contêiner Linux tradicional. A tecnologia Docker foi desenvolvida inicialmente com base na tecnologia LXC, que a maioria das pessoas associa aos contêineres Linux "tradicionais". No entanto, mas não oferecia uma boa experiência para usuários e desenvolvedores. A tecnologia Docker oferece mais do que a habilidade de executar contêineres, o envio e o controle de versão de imagens, entre outros.
 
@@ -139,7 +139,65 @@ O Docker oferece um sistema de versionamento de imagens, permitindo o uso de con
 - [Pesquisas no Google]
 - [Artigos]
 ***
+&nbsp;
 
+## ✨ Kubernetes
+### 💫 Conceito
+**Kubernetes (também conhecido como *K8S* ou *KUBE*) é uma plataforma de orquestração de contêiner para agendar e automatizar a implantação, o gerenciamento e o dimensionamento de app's em contêineres. Kubernetes foi inicialmente desenvolvido por engenheiros da Google antes de ser disponibilizado como código aberto em 2014. É descendente da *Borg*, uma plataforma de orquestração de contêineres usada internamente no Google. *Kuvernetes* siginfica "timoneiro" ou "piloto" em grego, dai o leme no logotipo do Kubernetes. Atualmente o Kubernetes e o amplo ecossistema de contêineres estão se desenvolvendo como uma plataforma de computação de uso geral que concorre, e em alguns casos supera, as máquinas virtuais como os elementos fundamentais da infraestrutura de nuvem moderna e das aplicações. Esse ecossitema permite que organizações forneçam uma plataforma como serviços *PaaS* de alta produtividade que aborda diversas tarefas e problemas relacionados à infraestrutura e as operações que envolvem o desenvolvimento *nativo da nuvem*, para que as equipes de desenvolvimento possam concetrar exclusivamente na codificação e na inovação.**
+***
+
+### 🔍️ Oque são Contêineres
+
+Os contêineres são componentes de aplicativos leves e executáveis que combinam o código-fonte do aplicativo com todas as bibliotecas do sistema operacional (S.O.) e as depedências necessárias para executar o código em qualquer ambiente. Os contêineres aproveitam uma forma de virtualização do sistema operacional que permite à várias aplicações compartilharem um única instância de um S.O, isolando processos e controlando a quantidade de *CPU*, *Memória* e *Disco* que esses processos podem acessar. Como são menores e mais eficientes em termos de recursos e com maior portabilidade do que as VM's, os contêineres se tornaram as unidades de computação de fato dosmodernos aplicativos nativos em nuvem.
+***
+
+### 🔧 Principais Componentes
+`Pod:` Menor unidade de implantação no Kubernetes, pode conter um ou mais contêineres que compartilham armazenamento e rede.
+
+`Node:` Máquina física ou virtual que executa os *Pods* e fornece recursos necessários para execução de contêineres. Cada node é gerenciado pelo Master e executa Kubelet e contêineres
+
+`Master Node:` o Nó Central que cordena o cluster, gerenciando a comunicação entre os Nodes e controlando a execução do pods: Ele contém componentes como o *API Server*, *Controller Manager* e *Scheduler*.
+
+`Deployment:` Objetivo que direciona um conjunto de Pods, deve ser executado e gerenciado incluindo as estratégias de atualização e escala.
+
+`Service:` Abstração que define um conjunto de Pods e fornece uma forma de expor eses Pods como um serviço de rede, permitindo a comunicação entre eles e com o mundo externo.
+
+`ConfigMap e Secret:` Objetos que permitem a separação de configurações e informações sensíveis do código dos contêineres, facilitando o gerenciamento e a segurança das configurações.
+
+`Ingress:` Gerencia os acessos externos aos serviços dentro do Cluster, fornecendo balanceamento de carga e roteamento de tráfego baseado em regras de *URL* e *Host*
+***
+
+### 🏷️ Casos de Uso
+*A Kubernetes programa e automatiza tarefas relacionadas ao contetor durante todo o ciclo de vida do aplicativo, incluindo:*
+
+**Implantação:** *Implemente um número específico de contêineres em um host específicado e mantenha-os funcionando no estado desejado.*
+
+**Implementações:** *Uma implementação é uma alteração em uma implantação. O Kubernetes permite iniciar, pausar, retomar ou reverter lançamentos.*
+
+**Descoberta de Serviços:** *Possibilita expor automaticamente um contêiner à internet ou a outros contêineires usando um nome **DNS** ou  **endereço IP**.*
+
+**provisionamento de armazenamento:** Define o Kubernetes para montar armazenamento local persistente ou na nuvem para seus contêineres, conforme necessário.
+
+**Balanceamento de cargo:** *Com base na uilização da CPU ou métricas personalizadas, o balanceamento de carga do Kubernetes pode distribuir a carga de trabalho em toda a arede para manter o desempenho e estabilidade.*
+
+**Expansão automática:** *Quando o tráfego aumenta, o dimensionamento automático do Kubernetes pode criar novos Clusters conforme necessário para lidar com a carga de trabalho adcional.*
+
+**Autocorreção para alta qualidade:** *Quando um contêiner falha, o Kubernetes pode renunciá-lo ou substituí-lo automaticamente para evitar "downtime". Possibilita derrubar contêineres que não atendem aos requisitos de verificação de integridade.*
+***
+
+### ⚡Kubernetes vs. Docker
+
+O Docker é um conjunto de ferramentas de desenvolvimento de software para criar, compartilhar e executar contêineres individuais; O Kubernetes é um sistema para operar aplicativos em contêineres padronizadas para microsserviços como todo o código de aplicativo e dependências necessárias dentro. Criar esses contêineres é o domínio do Docker.
+
+Um aplicativo moderno consiste em muitos contêineres, operá-los em produção é o trabalho do Kubernetes. Como os contêineres são fáceis de replicar, os aplicativos pode serm dimensionados automaticamente.
+
+**Docker** e **Kubernetes** são, em sua maioria, tecnologias complementares. No entanto, o Docker também fornece um sistema para operar aplicativos em contêineres em escala, chamado **Docker Swarm**.
+***
+
+### 🔒️ Conclusão
+ **O Kubernetes representa uma revolução na forma como os aplicativos são gerenciados, fornecendo uma plataforma poderosa e flexível para a implantação e orquestração eficientes de contêineres em escala. Com a adoçao generalizada e evolução contínua, o Kubernetes se tornou um pilar fundamental da infraestrutura moderna de TI, capaitando as empresas a impulsionar a invocação e fornecer serviços confiáveis em um mundo cada vez mais digital.**
+
+***
 &nbsp;
 **Desafios Encontrados:**  
 *Acredito que no meu caso, o desafio é absorver todo conteúdo, considerando que venho de outra área de atuação e apesar de já ter evoluído bastante, ainda sinto dificuldade com as nomenclaturas e termos técnicos. Minha ideia é ir aprofundando os conteúdos conforme eu for absorvendo de fato o conteúdo.*
@@ -154,4 +212,5 @@ O Docker oferece um sistema de versionamento de imagens, permitindo o uso de con
 **Relatórios:**
 
 [**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1)
-[**2ª Semana**]((https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2))
+
+[**2ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
