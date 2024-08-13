@@ -136,9 +136,10 @@ O Docker oferece um sistema de versionamento de imagens, permitindo o uso de con
  **Mesmo com desafios a serem enfrentados, não é por acaso que os contêineres estão se tornando cada vez mais populares. Eles reduzem a necessidade de contar com uma grande estrutura e permitem utilizar apenas um sistema operacional normal. Como os contêineres ficam dispostos neste único ambiente, é muito mais fácil realizar a manutenção além de ser mais leve e permite a portabilidade.**
 ***
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/virtualizacao.md)
+- [Aws](https://aws.amazon.com/pt/docker/)
+- [Atlassian](https://www.atlassian.com/microservices/microservices-architecture/kubernetes-vs-docker)
+- [Dynatrace](https://www.dynatrace.com/news/blog/kubernetes-vs-docker/)
 ***
 &nbsp;
 
@@ -198,6 +199,14 @@ Um aplicativo moderno consiste em muitos contêineres, operá-los em produção 
 ### 🔒️ Conclusão
  **O Kubernetes representa uma revolução na forma como os aplicativos são gerenciados, fornecendo uma plataforma poderosa e flexível para a implantação e orquestração eficientes de contêineres em escala. Com a adoçao generalizada e evolução contínua, o Kubernetes se tornou um pilar fundamental da infraestrutura moderna de TI, capaitando as empresas a impulsionar a invocação e fornecer serviços confiáveis em um mundo cada vez mais digital.**
 ***
+
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/virtualizacao.md)
+- [IBM](https://www.ibm.com/br-pt/topics/kubernetes)
+- [UEPG](https://deinfo.uepg.br/~alunoso/2023/SO/kubernets/Introdu%C3%A7%C3%A3o,%20Conceitos%20Basicos%20e%20Hist%C3%B3ria/Kubernetes.html)
+- [Dynatrace](https://www.dynatrace.com/news/blog/kubernetes-vs-docker/)
+***
+
 &nbsp;
 ## ✨ Computação em Nuvem
 ### 💫 Conceito
@@ -253,7 +262,12 @@ O Dataflow oferece uma série de benefícios para os desenvolvedores e empresas 
 
 ### 🔒️ Conclusão
 O Dataflow é uma poderosa ferramenta para processamento de dados em tempo real e em lote. Com sua escalabiliade, flexibilidade e integração com outros serviços do Google Cloud Platform, ele ofece uma solução completa para lidar com grandes volumes de dados e realizar análises avançadas.
+***
 
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/virtualizacao.md)
+- [GeoAmbiente](https://www.geoambiente.com.br/blog/google-cloud-o-que-e-computacao-em-nuvem-e-por-que-e-essencial-para-o-seu-negocio/?utm_term=&utm_campaign=Data+Soul+%7C+PMax+%7C+Cloud+Platform&utm_source=adwords&utm_medium=ppc&hsa_acc=4018137608&hsa_cam=20723657208&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw5ea1BhC6ARIsAEOG5py0RkLbM-gAbx6SJBUHk6OesvHE0527PdJ-4VyhsO9CuoWSFoq5NhcaAqtkEALw_wcB)
+- [Azure](https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-cloud-computing)
 ***
 &nbsp;
 
