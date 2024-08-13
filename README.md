@@ -4,11 +4,11 @@
 **Data: 07/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Modelagem de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-modelagem-de-dados)
-2. [**BigQuery**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-bigquery)
-3. [**Bases Analíticas**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-bases-anal%C3%ADticas)
-4. [**Transacional (OLTP)**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-transacional-oltp)
-5. [**Mensageria**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-mensageria)
+1. [**Modelagem de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2?tab=readme-ov-file#-modelagem-de-dados)
+2. [**BigQuery**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2?tab=readme-ov-file#-bigquery)
+3. [**Bases Analíticas**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2?tab=readme-ov-file#-bases-anal%C3%ADticas)
+4. [**Transacional (OLTP)**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2?tab=readme-ov-file#-transacional-oltp)
+5. [**Mensageria**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2?tab=readme-ov-file#-mensageria)
 
 ***
 
@@ -320,5 +320,7 @@ A mensageria é uma tecnologia essencial para a construção de sistemas distrib
 
 **Relatórios:**
 
-[**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
+[**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1)
+
+[**3ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana3)
 ***
