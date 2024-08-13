@@ -7,7 +7,7 @@
 1. [**Virtualização**](https://github.com/2RP-Squad404/Ricardo_Silva#-virtualiza%C3%A7%C3%A3o)
 2. [**Docker**](https://github.com/2RP-Squad404/Ricardo_Silva#-docker)
 3. [**Kubernetes**](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes)
-4. [**Computação em Nuvem**]()
+4. [**Computação em Nuvem**](https://github.com/2RP-Squad404/Ricardo_Silva#-computa%C3%A7%C3%A3o-em-nuvem)
 
 ***
 
@@ -210,7 +210,7 @@ Um aplicativo moderno consiste em muitos contêineres, operá-los em produção 
 - *A plataforma como serviço, ofere um ambiente de desenvolvimento **(PaaS)**.*
 - *Implantação para criação de aplicativos em nuvem e o software como serviço entrega os aplicativos como serviços **(SaaS)**.*
 ***
-### Vantagens da Computação em Nuvem
+### ✔️ Vantagens da Computação em Nuvem
 Há diversas vantagens de usar a computação em nuvem. Entenda as principais:
 
 **Eficiência:** É possível desenvolver novas aplicações e lançá-las rapidamente sem se preocupar com a infraestrutura.
@@ -239,7 +239,7 @@ O serviço de nuvem da Google por exemplo, oferece uma ampla variedade de aplica
 O **Google Cloud Dataflow** é um serviço de processamento de dados em tempo real, e em lote, oferecido pela *Google Cloud Platform*. Permite que os desenvolvedores criem e executem pipelines de processamento de dados de forma escalável e eficiete, sem se preocupar com a infraestrutura subjacente.
 ***
 
-### Vantagens do Google Cloud Dataflow
+### ✅ Vantagens do Google Cloud Dataflow
 O Dataflow oferece uma série de benefícios para os desenvolvedores e empresas que precisam lidar com grandes volumes de dados: 
 
 - **Escalabildade:** O serviço é capaz de processar grandes quantidades de dados de forma eficiente, escalando automaticamente de acordo com a demanda.
