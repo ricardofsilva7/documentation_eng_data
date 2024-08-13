@@ -4,72 +4,71 @@
 **Data: 07/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Modelagem de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-modelagem-de-dados)
-2. [**BigQuery**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-bigquery)
-3. [**Bases Analíticas**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-bases-anal%C3%ADticas)
-4. [**Transacional (OLTP)**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-transacional-oltp)
-5. [**Mensageria**](https://github.com/2RP-Squad404/Ricardo_Silva?tab=readme-ov-file#-mensageria)
+1. [**Virtualização**]()
+2. [**Docker**]()
+3. [**Kubernetes**]()
+4. [**Computação em Nuvem**]()
 
 ***
 
 # 📚 Resumo dos Módulos 
 &nbsp;
 
-## ✨ Modelagem de Dados
+## ✨ Virtualização
 
 ### 💫 Conceito
-**A *Modelagem de Dados* é utilizada para criar um modelo para os dados que serão utilizados em um sistema de informação. Ele define as estruturas lógicas e as relações entre os diferentes tipos de dadodas, se tornando uma base para a construção de Bancos de Dados, e sistemas de gerenciamento de informações. A modelagem de dados busca garantir que os dados sejam organizados de maneira eficiente e que possam ser acessados e manipulados de maneira eficiente**
+**Uma Máquina Virtual (VM) é um ambiente de computação que funciona como um sistema isolado com *CPU*, *Memória*, *Interface de rede* e *armazenamento* próprios, criado a partir de um pool de recursos de hardware. O software chamado *hipervisor* isola os recursos computacionais necessários e permite a criação e o gerenciamento de Máquinas Virtuais. A máquina física que executa os VM's é chamado de *máquina host* ou simplesmente *host*. As várias VM's que usam os recursos do host são *máquinas guest* ou simplesmente *guest*. O hipervisor trata os recursos de computação (CPU, memória e armazenamento) como um pool que pode ser realocado com facilidade entre os guests existentes ou para novas máquinas virtuais**
 
 ***
-### 🔖 Por que a Modelagem de Dados é importante 
-**As organizações coletam volumes de dados em grande escala e de várias fontes diferentes. Entretanto, dados brutos não são o suficiente, voce precisa analisar dados para absorver insights acionáveis e que possam orientar na tomada de decisão. Qualquer análise precisa de dados exige: *coleta, armazenamento e processamento de dados eficientes*. Existem muitas tecnologias de banco de dados e ferramentas de processamento de dados, e diferentes conjuntos de dados exigem ferramentas distintas para uma análise eficiente. A modelagem de dados nos da a chance de entender os dados e fazer as escolhas tecnológicas certas para armazenar e gerenciar esses dados. A *Modelagem de Dados* traz os seguintes benefícios:**
+### 🔖 Tipos de Virtualização 
+**A virtualização é uma tecnologia que usa recursos tradicionalmente vinculados ao hardware. Com ela, é possível usar a capacidade total de uma máquina física, distribuindo seus recursos entre muitos usuários ou ambientes; Os tipos incluem:**
 
-- *Reduz erros no desenvolvimento de softwares de Banco de Dados*
-- *Facilita a velocidade e eficiência da concepção e criação de Banco de Dados*
-- *Cria consistência  na documentação de dados e na concepção do sistemas em toda a organização*
-- *Facilita a comunicação entre engenheiros de dados e equipes de BI (Business Intelligence)*
-
+- **Virtualização de Dados:** *Permite as organizações consolidar fontes de dados em um único recurso dinâmico.*
+- **Virtualização de Desktop:** *Possibilita implantar e controlar vários ambientes de desktop simulados por meio de um Administrador Central.*
+- **Virtualização de Servidores:** *Permite aos administradores particionar servidores em configurações distintas a desempenhar funções específicas.*
+- **Virtualização de Sistema Operacional:** *Torna possível a execução de vários sistemas operacionais em um único computador.*
+- **Virtualização de Função de Rede:** *Supera as funções de uma rede (como serviços de diretório, compartilhamento de arquivos e configuração de IP) para distribuí-las entre os ambientes.
 ***
 
-### 📝 Como modelos de dados são usados na prática?
-**Existem três estilos básicos de modelos de dados que iremos explanar a seguir**
+### 📝 Principais Características
 
-1. **Modelos de dados conceituais:** Geralmente utilizado para explorar conceitos do domínio com os envolvidos no projeto. Em equipes ágeis, modelos conceituais de alto nível são normalmente criados como parte do esforço inicial do entendimento dos requisitos do sistema, pois eles são usados para explorar as estruturas e conceitos de negócios estáticos de alto nível
+1. **Isolamento:** Cada máquina virtual é isolada das demais e do sistema host, oque permite que distintas máquinas virtuais executem diferentes sistemas operacionais e aplicativos de maneira independente.
 
-2. **Modelos lógicos de dados (MLD's): MLD's** são usados para explorar os conceitos do domínio e seus realcionados. Pode ser feito para o escopo de um simples projeto ou para uma empresas inteira. **MLD's**  descrevem os tipos de entidades lógicas, tipicamente referenciadas simplesmente como tipo de entidade, os atributos de dados que descrevem essas entidades e os relacionamentos entre entidades, **MLD's** são raramente usados em projetos ágeis apesar de normalmente estarem presentes em projetos tradicionais (onde eles poucas vezes adicionam muito valor na prática)
+2. **Recursos Compartilhados:** Máquinas virtuais compartilham os recursos físicos do hardware subjacente, como CPU, Memória e Armazenamento, más operam de maneira independente.
 
-3. **Modelos físicos de dados (MFD's): MFD's** são usados para projetar o esquema interno de um banco de dados, descrevendo as tabelas de dados, as colunas de dados das tabelas e o relacionamento entre as tabelas. **MFD's** normlmente são bastante úteis em projetos ágeis e tradicionais.
+3. **Portabilidade:** VM's podem ser movidas entre diferentes servidores físicos, permitindo a flexibilidade e recuperação de desastres. Imagens de máquinas virtuais podem ser replicadas e transportadas facilmente.
 
-&nbsp;
+4. **Escalabilidade:** Facilita a criação e o gerenciamento de múltiplas instâncias de servidores para escalar aplicações conforme a demanda.
 
-**A** *Figura 1* **apresenta um simples MLD e a** *Figura 2* **um simples MFD, ambos modelando o conceito de clientes e endereços, assim como o relacionamento entre eles. Ambos diagramas sugerem a notação de Barker. Note como o MFD mostra mais detalhes, incluindo uma tabela associativa necessária para implementar a associação, assim como as chaves necessárias para manter os relacionamentos**
+5. **Gerenciamento Simplificado:** Permite o gerenciamento centralizado e automatizado das máquinas virtuais, facilitando a administração e a manutenção.
+***
 
-- _Figura 1_
+### 🔧 Principais Componentes
 
-![Figura 1](/assets/image001.jpg)
+**Hipervisor:** *O software que gerencia e cria máquinas virtuais. Existem dois tipos principais e hipervisor*
 
-- _Figura 2_
+- **Tipo 1 (Bare-metal):** Executa diretamente no hardware do servidor, como *VMware ESXI* e *Microsoft Hyper-V*
+- **Tipo 2 (Hosted):** Executa sobre um sistema host, como *VMware* e *Oracle VirtualBox*
 
-![Figura 2](/assets/image002.jpg)
+**Imagens de VM's:** *Arquivos que contém o sistema operacional, dados necessários e aplicativos para iniciar e operar uma máquina virtual.*
+
+**Virtualização de Hardware:** *A camada de virtualização emula recursos de hardware(CPU's, Memória e Discos) para as maquinas virtuais, permitindo que elas funcionem da mesma maneira, como se estivessem em um hardware físico dedicado*
+
+**Recursos Virtuais:** *Recursos como CPU's virtuais, memória virtual e armazenamento virtual são alocados para as máquinas virtuais conforme necessidade.*
 
 ***
->### 🔧 Ferramentas de Modelagem de Dados
->- `ER/Studio`
->- `IBM InfoSphere Data Architect`
->- `Microsoft Visio`
->- `Oracle SQL Developer Data Modelar`
->- `PowerDesign`
->- `MySQL Workbench`
-***
-### 💡 Aplicação de modelagem de dados
-1. **Sistemas de Gerenciamento de Relacionamento com o Cliente (CRM):** *Estruturação de dados de clientes, interações e histórico de compras, muito utilizado por instituições financeiras para acompanhamento de clientes.*
-2. **Sistemas de Planejamento de Recursos Empresariais (ERP):** *Organização de dados sobre finanças, logisticas, recursos humanos, geração de notas fiscais e emails focados.*
+### 💡 Vantagens das Máquinas Virtuais
+- **Utilização de recursos e ROI melhorado:** Como vários VM's são executadis em um único computador físico, os clientes não precisam comprar um novo servidor toda vez que quiserem executar outro S.O. e podem obter mais retorno de cada peça de hardware que já possuem.
 
-3. **Data Warehouse:** *Integração e estruturação de dados de várias fontes para análise e relatórios.*
+- **Escala:** Com a computação em nuvem, é facil implementar várias cópias da mesma máquina virtual para melhor acomodar aumentos em carga.
+
+- **Portabilidade:** VM's podem ser realocadas conforme necessário entre os computadores físicos em uma rede. Isso possibilita a alocação de computação sobressalente. As VM's podem até se mover entre ambientes locais em nuvem.
+
+- **Flexibilidade:** Criar uma Máquina Virtual é mais rápido e mais fácil do que instalar uma S.O. em um servidor físico, já que é possível clonar uma VM com o S.O. ja instalado. Desenvolvedores e testadores de software podem criar novos ambientes sob demanda para lidar com novas tarefas à medida que demandam.
+
+- **Segurança:** VM's melhoram a segurança de várias maneiras se comparados a sistemas operacionais sendo executados diretamente em hardware. Uma máquina virtual é um arquivo que pode ser varrido por um programa externo em busca de software maliciosos. É possível criar uma captura instantânea inteira da VM a qualquer momento e em seguida, restaurá-la para esse estudo caso ela ja infectada por um malware, recuperando-a de forma rápida e eficaz. A criação rápida e fácil de VM's também possibilita excluir completamente uma VM comprometida e, em seguida, recriá-la rapidamente, acelarando a recuperação de infecções por vírus.
 ***
-### 🔒️ Conclusão
- **A modelagem de dados é uma etapa fundamental na criação de sistemas de Banco de Dados. Com esses processos é possível criar a estrutura do banco de dados da empresa ou do projeto para alcançar os objetivos do negócio com o armazenamento de dados. Por isso, o modelo  de dados deve ser bem projetado para não gerar duplicidade de informações, armazenar dados em excesso e causar conflito de dados nas análises.**
-***
+
 **Recursos Utilizados:**  
 - [Trilha de Conhecimento - Github]
 - [Pesquisas no Google]
@@ -77,236 +76,70 @@
 ***
 &nbsp;
 
-## ✨ BigQuery
+## ✨ Docker
+
 ### 💫 Conceito
+**A palavra *Docker* tem várias definições; Um projeto da comunidade open source, ferramentas resultantes desse projeto, a empresa *Docker Inc*, principal apoiadora do projeto, e as ferrametnas compatíveis formalmente com a empresa. O fato da empresa e das tecnologias terem o mesmo nome pode causar alguma confusão**
 
-**O BigQuery é um serviço de armazenamento de dados de baixo custo e totalmente gerenciado do Google para análises com escala em *Petabytes*. É uma ferramenta *NoOps*, ou seja, ela não requer uma infraestrutura responsável pelo gerenciamento nem um administrador de banco de dados. Com o BigQuery, você se concentra na análise de dados para ter acesso a insights relevantes usando um SQL familiar e aprendizado de máquina integrado.**
+- *O software de TI **Docker** é uma tecnologia de conteinerização para criação e uso de conteineres Linux.*
+- *A comunidade open source do Docker trabalha gratuitamente para melhorar essas tecnologias para todos usuários.*
+- *A empresa **Docker Inc.** se baseia no trabalho feito pela comunidade do Docker, tornando-o mais seguro em geral. Depoi, ela oferece aos clientes empresariais o suporte necessário para as tecnologias, que foram aprimoradas e fortalecidas.*
+
+**Com o Docker, é possível lidar com os conteiners como se fossem máquinas virtuais modulares e extremamente lightweight. Além disso, os conteineres oferecem maior flexibilidade para você criar, implantar, copiar e migrar um contêiner de um ambiente para outro.**
+
+### 🔖 Como o Docker funciona
+
+A tecnologia **Docker** usa o *Kernel* do *Linux* e funcionalidades do Kernel, como *Groups* e *homespaces*, para segregar processos. Assim, eles podem ser executados de maneira independente. O objetivo dos contêineres é criar independência: a habilidade de executar diversos processos e app's separadamente para utilizar melhor a infraestrutura e, ao mesmo tempo, manter a segurança que você teria em sistemas separados.
+
+ As ferramentas de contêiner, incluindo o Docker, incluem um modelo de implantação com base em imagens. Isso facilita o compartilhamento de uma aplicação ou conjunto de serviços, incluindo todas as dependências deles em vários ambientes. O Docker também automatiza a implantação da aplicação *(ou de conjunto de processos que constituem um app)* dentro desse ambiente de contêiner. Essas ferramentas baseadas no contêiner Linux fazem com que o Docker seja exclusivo e fácil de usar. Elas também oferecem aos usuários acesso sem precedentes a apps e total controle sobre as versões  distribuição, além da habilidade de impantar com rapidez.
+
+ ### Docker e Contêineres Linux: qual a diferença?
+
+ Embora isso posta causar confusão, o Docker não é o mesmo que um contêiner Linux tradicional. A tecnologia Docker foi desenvolvida inicialmente com base na tecnologia LXC, que a maioria das pessoas associa aos contêineres Linux "tradicionais". No entanto, mas não oferecia uma boa experiência para usuários e desenvolvedores. A tecnologia Docker oferece mais do que a habilidade de executar contêineres, o envio e o controle de versão de imagens, entre outros.
+
+ ![Docker](/assets/docker.png)
+
+ Os Contêineres Linux tradicionais usam um sistema *init* capaz de gerenciar vários processos. Isso significa que aplicações inteiras são executadas como uma. A tecnologia Docker incentiva a segregação de aplicações em processos separados e oferece as ferramentas para fazer isso. Essa abordagem granular tem algumas vantagens.
+ ***
+
+ ### 🔧 Principais Componentes
+
+ `Containers:` Unidades leves e potáteis que encapsulam o aplicativo e suas dependências em um ambiente isolado
+ `Imagens Docker:` São modelos para ciração de contêineres, contêm o código-fonte, bibliotecas eoutras dependências necessárias para o aplicativo.
+ `Dockerfile:` É um script que contém uma série de instruções para construir uma imagem Docker, define o ambiente necessário para o aplicativo e como deve ser configurado.
+ `Docker Hub:` Registro público de imagens Docker, onde você pode encontrar e compartilhar imagens de contêiner.
+ `Docker Compose:` Uma ferramenta para definir e gerenciar aplicações multi-contêineres. Usando um arquivo **YAML**, você pode configurar serviços, redes e volumes necessários para execuar uma aplicação composta por vários contêineres.
 ***
-### 🔖 Principais Características
 
-**Alta Performance e Escalabilidade**
-* **Consulta Rápida**: Capaz de executar consultas SQL em conjuntos de dados de forma extremamente rápido.
-
-* **Escabilidade Automática:** Gerencia automaticamente a escala de armazenamento e recursos computacionais conforme necessário.
-
-**Armazenamento de Dados**
-* **Colunar**:  Utiliza um formato de armazenamento colunar que otimiza o desempenho de consultas.
-
-* **Separação de Armazenaento e Computação**: Permite que o armazenamento de daos e a computação sejam escalados independentemente.
-
-**Facilidade de Uso**
-* **SQL compatível**: Utiliza SQL padrão, facilitando a implementação por usuários com conhecimento já adquirido de SQL.
-
-**Integração e Compatibilidade**
-* **ETL/ELT**: Suporta pipelines de ETL/ELT para ingestão de dados.
-* **API e Conectores**: Integração com API's e conectores para diversas outras ferramentas de BI.
-
-**Análise e Machine Learning**
-* **Análise em Tempo Real**: Capaz de realizar análises em tempo real com suporte a dados em streaming.
-* **Machine Learning Integrado**: Integração com o BigQuery ML, permitindo a criação e execução de modelos de Machine Learning diretamente na base de dados.
-
-**Segurança e Governança**
-* **Controle de acesso granulares**: Gerenciamento detalhado de permissões e acesso a dados.
-* **Compliance**: Conformidade com diversos padrões de segurança e privacidade como *GDPR*.
-
-**Custo e Gestão**
-* **Modelo de Preço Pago por Consulta**: Pagar-se pelo volume de dados processados mais consultas, com opções de preços flexíveis.
-* **Gerenciamento de Recursos**: Monitoramento e otimização de custos através de relatórios detalhados.
-
-****
 ### 🏷️ Casos de Uso
+**Aplicações e microsserviços distribuídos**
 
-1. **Análise de Big Data:** *Análise de dados em grandes volumes, tanto para extrair insights e gerar bases para tomada de decisão.*
-2. **Business Intelligence:** *Geração de relatórios e dashboards para visualização e análise de dados empresariais e desempenho.*
-3. **Processamento de Dados Streaming:** *Análise de dados em streaming para monitoramento e respostas rápidas a eventos específicos ou não.*
-4. **Data warehousing:** *Armazenamento e gerenciamento de dados históricos para análise longitudinal e geração de relatórios.*
+Podemos utilizar contêiners para criar aplicações distribuídas, dividindo-as em tarefas ou processos independentes (microsserviços). Por exemplo, você pode ter contêineres separados para o servidor web, servidor de aplicações, a fila de mensagens e operadores de back-end, os contêineres são ideais para executar tarefas ou processos simples e podem ser usados como a unidade básica de uma tarefa ao aumentar ou diminuir escala.
+
+**Integração e implantação contínuas**
+
+O Docker oferece um sistema de versionamento de imagens, permitindo o uso de contêineres para integração e implantação contínuas. Você pode configurar o processo de criação para obter código de um repositório, compilá-lo, empacotá-lo em uma imagem do  Docker e enviá-la a um repositório de imagnes. Em seguida, o processo de implantação pode obter a imagem do repositório , testar a aplicação. É possível evitar que uma aplicação funcione no ambiente de desenvolvimento e falhe no ambiente de produção, pois o *daemon* do Docker é o mesmo nas máquinas de desenvolvimento preparação e produção.
+***
+
+### ✅ Benefícios do Docker
+
+- *O Docker permite um uso mais eficiente dos recursos do sistema.*
+- *As instâncias de aplicativos em contêiner usam muito menos memória do que máquinas virtuais, elas são inicializadas e interrompidas mais rapidamente podem ser armazenadas muito mais densamente em um **hardware host**.*
+- *O Docker permite ciclos de entrega de software mais rápido.*
+- *O software corporativo deve responder rapidamente a mudanças de condições. Isso significa que o escalonamento fácil atenda à demanda e facilita a atualização para adicionar novos recursos conforme a necessidade do negócio.*
+- *O Docker permite a portabilidade de aplicativos.*
+- *Os contêineres são leves, portáteis e facilitam a construção de software em linhas de pensamento avançadas, de modo que o desenvolvedor não está tentando resolver os problemas de amanhã com os métodos de desenvolvimento de ontem.*
 
 ***
 ### 🔒️ Conclusão
- **BigQuery é uma ferramenta extraordinárias, principalmente para empresas e para o mercado de trabalho, o suporte a grandes volumes de dados, o elevado desempenho, a análise em tempo real, facilidade na integração de API's, e o modelo de pagamento flexivel**
+ **Mesmo com desafios a serem enfrentados, não é por acaso que os contêineres estão se tornando cada vez mais populares. Eles reduzem a necessidade de contar com uma grande estrutura e permitem utilizar apenas um sistema operacional normal. Como os contêineres ficam dispostos neste único ambiente, é muito mais fácil realizar a manutenção além de ser mais leve e permite a portabilidade.**
 ***
 **Recursos Utilizados:**  
 - [Trilha de Conhecimento - Github]
 - [Pesquisas no Google]
 - [Artigos]
 ***
-&nbsp;
 
-## ✨ Bases Analíticas
-### 💫 Conceito
-**Bases análitcas são sistemas e tecnologias projetados para facilitar a análise de grandes volumes de dados. São otimizados para consultas complexas e operações analíticas, permitindo que as organizações extraiam insights valiosos e seus dados. As bases analíticas são frequentemente usadas em conjunto com *data warehouses* e *data lakes* para suportar diversas necessidades de análise de dados.**
-
-***
-### 🔖 Principais Características
-**1. Desempenho de consultas:** *São otimizados para executar consultas complexas e pesadas de maneira rápida e eficiente.*
-
-**2. Escalabilidade:** *Podem lidar com grandes volumes de dados e aumentar a capacidade conforme necessário.*
- 
-**3. Integração de Dados:** *Suportam a integração de dados de multipasa fontes, sejam eles estruturados, semiestruturados ou não estruturados.*
-
-**4. Modelagem de Dados:** *Usam técnicas avançadas de modelagem de dados para organizar e relacionar informações de maneira lógica e acessível.*
-
-**5. Ferramentas de Análise:** *Incluem ferramentas para mineração de dados, Machine Learning, visualização de dados e análise estatística.*
-
-***
-### 🏷️ Exemplos de Tecnologias de Bases Analíticas 
-**`OLAP (Online Analytical Processing)`**
-- **Descrição:** *OLAP* refere-se a tecnologias que permitem a realização de consultas multidimensionais sobre grandes volumes de dados, facilitando análises completas e a exploração interativo dos dados.
-
-- **Características:** Suporte as operações: *drill-down, roll-up, slice, dice e pivot*, geralmente utilizando um modelo de dados multidimensional.
-
-- **Exemplos de execução:** BI, relatórios financeiros, análise de desempenho comercial/empresarial.
-
-**`Apache Spark`**
-- **Descrição:** *Apach Spark* é uma plataforma de processamento de dados de código aberto que oferece suporte a processamento em tempo real ou em batch.
-
-- **Características:** Alta velocidade de processamento suporte a *API's* em várias linguagens (Java, Scala, Python, R) integração com Hadoop e bibliotecas para *Machine Learning, SQL e Data Warehouse*.
-
-- **Exemplos de execução:** Análise  de Big Data, Machine Learning, processamento de dados em tempo real, e integração com Data Lakes e Data Warehouse. 
-
-**`Amazon Redshit`**
-- **Descrição:** É um serviço de data warehouse gerenciado pela *Amazon Web Services (AWS)*.
-
-- **Características:**  Escalabilidade, integração com ferramentas de visualização de dados, relatórios financeiros.
-
-- **Exemplos de execução:** Business Intelligence, integração com ferramentas de visualização de dados, relatórios financeiros. 
-
-**`Microsoft Azure Synope Analytics`**
-- **Descrição:** *Azure* é um serviço de análise ilimitada que combina data warehousing empresarial e análise de Big Data. 
-
-- **Características:**  Integração com serviços Azure, suporte a análise em tempo real, consulta distribuída e escalabilidade.
-
-- **Exemplos de execução:** Análise de Big Data, BI, relatórios empresariais, integração de dados de diversas fontes. 
-
-***
-
-### ✅ Benefícios das Bases Analíticas
-- **Insights:** *Permitem a extração de insights valiosas dos dados, ajudando na tomada de decisões.*
-- **Desempenho:** *Otimizadas para consultas simples e complexas, melhorando a eficiência das operações analíticas.*
-- **Flexibilidade e Escalabilidade:** Podem lidar com diferentes tipos e volumes de dados, ajustando as necessidades da organização.
-- **Integração de Dados:** Facilitam a integração de dados de diversas fontes, possibilitando uma *visão holística* das informações
-- **Ferramentas Avançadas:** Incluem ferramentas para análises avançadas, visualização de dados, e Machine Learning, ampliando as possibilidades analíticas das organizações.
-***
-&nbsp;
-
-## ✨ Transacional (OLTP)
-### 💫 Conceito
-**O *OLTP* é um tipo de processamento de dados que consiste na execução de várias transações que ocorrem simultaneamente (transações bancárias, compras online, entrada de pedidos ou envio de mensagens de texto, por exemplo). Essas transações são tradicionalmente chamadas de transações econômicas ou financeiras, registradas e protegidas para que uma empresa possa acessar as informações a qualquer momento para fins contabeis ou de relatórios**
-***
-
-### 🔖 Principais Características
-- **Transações em Tempo Real:** Processam operações rapidamente de maneira eficiente, permitindo que as transações sejam concluídas em tempo real
-
-- **Alta confiabilidade e Integridade:** Garantem que as transações sejam completadas de maneira consistente e confiável, usando propriedades ACID *(Atomicidade, Consistência, Isolamente, Durabilidade)*
-- **Suporte a Operação CRUD:** Suportam operações de criação, leitura, atualização e exclusão de dados.
-- **Baixa Latência:** São otimizados para operações rápidas com pouca latência.
-- **Alta Concorrência:** Suporta um alto número de usuários simultâneos, mantendo a integridade dos dados.
-***
-
-### ➕ Propriedades ACID
-**`Atomicidade`**
-
-- Os controles de atomicidade garantem que todas as etapas de uma transação sejam concluídas com sucesso como um grupo. Em resumo, se alguma etapa entre as transações falhar, todas as outras etapas também deverão falhar ou serem revertidas. A conclusção bem sucedida de uma transação é chamado de _confirmar_. A falha de uma transação é chamada de _abortar_.
-
-**`Consistente`**
-- A transação preserva consistência interna ao banco de dados. Se você executar a transação sozinha em um banco de dados incialmente consistente, quando a transação terminar de ser executada, o banco de dados estará novamente consistente.
-
-**`Isolado`**
-- A transação é executada como se estivesse sendo executada isoladamente, sem outras transações. Ou seja, o efeito de executar um conjunto de transações e o mesmo que executá-las individualmente. Esse comportamente é implementado bloqueando as linhas específicas na tabela.
-
-**`Durável`**
-- Os resultados da transação não serão perdidos em caso de falhas.
-***
-
-### 🧱 Bases Transacionais
-
-**PostgreSQL**
- - **Descrição:** *Um sistema de gerenciamento de banco de dados relacional de código aberto, conhcido por sua robustez e conformidade*
-- **Características:** *Suporte a transações **ACID**, extensibilidade, tipos de dados avançados, e suporte a **JSON**.*
-- **Uso:** *Aplicações empresariais, sistemas BI, aplicações de geolocalização.*
-
-**Oracle Database**
-- **Descrição:** *Um sistema de gerenciamento de banco de dados relacional proprietário amplamente utilizado em ambientes empresariais.*
-- **Características:** *Suporte a transações **ACID**, alta disponibilidade, recuperação de desastres e recursos avançados de segurança.*
-- **Uso:** *Sistemas financeiros, ERP's, grandes aplicações empresariais.*
-
-**Microsoft SQL Server**
-- **Descrição:** *Sistema de gerenciamento de banco de dados relacional, desenvolvido pela Microsoft.*
-- **Características:** *Suporte a transações **ACID**, integração com o ecossistema Microsoft, ferramentas avançadas de BI e análises.*
-- **Uso:** *Aplicações empresariais, sistema de gerenciamento de recursos, plataformas de dados corporativos.*
-***
-### 🔒️ Conclusão
-**As Bases Transacionais são tecnologias essenciais para empresas que dependem de transações online. Ele permite o processamento de um grande volume de transações em tempo real, garantindo uma experiência de compra rápida e segura para os clientes. Embora apresenta desafios, como a escabilidade e disponibilidade, o *OLTP* é amplamente utilizado em setores como o *bancário* e *varejista*. É uma ferramenta poderosa para impulsionar os negócios e melhorar a experiência do cliente.**
-***
-
-**Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
-
-***
-&nbsp;
-
-## ✨ Mensageria
- ### 💫 Conceito
- **Mensageria é um conceito fundamental em sistemas distribuídos em redes de computadores, que envolve a troca de mensagem entre diferentes componentes ou sistemas. O objetivo principal da mensageria é facilitar a comunicação e a coordenação entre as partes de um sistema ou entre sistemas distintos de maneira assíncrona e desacopla**
-
-***
- ### 🔖 Principais Características
-
- **Mensagem**
- 
- Unidades de dados que são transmitidas entre sistemas ou componentes. Cada mensagem pode conter um _payload_ (dados reais) e _metadados_ (informações adicionais como cabeçalho e atributos).
- 
- **Pub/Sub**
- 
- Em um sistema de mensageria baseado em _PUB/SUB_ (publicação/inscrição), um publicador envia mensagens para um tópico, enquanto um assinante se inscreve em tópicos para receber mensagens.
-
-**Tópicos e Filas**
-
-- **Tópicos:** Entidades para onde as mensagens são publicadas, assinantes se inscrevem em tópicos para receber mensagens. Esse modelo é comum em sistemas _pub/sub_.
-- **Filas:** Estruturas que armazenam mensagens para que possam ser processadas pelos consumidores. As mensagens são retiradas da fila por consumidores, um de cada vez, típico em sistemas de filas de mensagem.
-
-**Broker de Mensagens**
-
-Componente que gerencia o envio e o recebimento de mensagens. Ele garante que as mensagens sejam entregues aos destinatários corretos e pode fornecer funcionalidades como persistência, roteamento e gerenciamento de transações 
-
-**Desacoplamento:** 
-
-Mensageria permite que os sistemas se comuniquem sem a necessidade de um conhcimento direto sobre o estado ou a disponiblidade dos outros sistemas, promovendo um acomplamento fraco.
-
-**Assíncro:**
-
- Em sistemas de mensageria, a comunicação é frequentemente assíncrona, o que signifca que o remetente não precisa esperar que o destinatário recebe ou processe a mensagem antes de continuar com sua própria execução. 
-
-***
-### 🏷️ Tipos de Mensageria
-
-1. **Pub/Sub:** O modelo _pub/sub_ permite que um componente (publicadas) envia mensagens para um tópico, e os componentes interessados (assinantes) recebem as mensagens. É importante para disseminar as informações para múltiplos consumidores simultaneamente.
-
-2. **Fila de Mensagens:** As mensagens armazenadas em uma fila e processadas por consumidores. Este modelo é usado para garantir que as mensagens sejam processadas em ordem e para balancear a carga entre múltiplos consumidores.
-
-3. **Mensagem Ponto a Ponto:** Envolve a troca de mensagens entre dois componentes diretamente, sem intermediários. É útil para comunicações diretas e específicas entre sistemas.
-
-***
-### ➕ Sistemas de Mensageria
-- **RabbitMQ:** *Uma plataforma de mensagens que supostas filas e troca de mensagens baseada em tópicos.*
-- **Apache Kafka:** *Uma plataforma distribuída para o processamento de sistemas de dados em tempo real.*
-- **Google Cloud Pub/Sub:** *Serviço gerenciado para publicação e inscrição de mensagens*
-- **Apache ActiveMQ:** *Sistema de mensagens de código aberto que suporta vários padróes de mensageria*
-
-***
-### 🔒️ Conclusão
-
-A mensageria é uma tecnologia essencial para a construção de sistemas distribuídos modernos, permitindo comunicação eficiente, escalável e resiliente a diferentes componentes e serviços.
-
-
-***
-**Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
-***
 &nbsp;
 **Desafios Encontrados:**  
 *Acredito que no meu caso, o desafio é absorver todo conteúdo, considerando que venho de outra área de atuação e apesar de já ter evoluído bastante, ainda sinto dificuldade com as nomenclaturas e termos técnicos. Minha ideia é ir aprofundando os conteúdos conforme eu for absorvendo de fato o conteúdo.*
@@ -320,5 +153,5 @@ A mensageria é uma tecnologia essencial para a construção de sistemas distrib
 
 **Relatórios:**
 
-[**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
-***
+[**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1)
+[**2ª Semana**]((https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2))
