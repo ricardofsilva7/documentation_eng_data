@@ -8,6 +8,7 @@
 2. [**Docker**](https://github.com/2RP-Squad404/Ricardo_Silva#-docker)
 3. [**Kubernetes**](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes)
 4. [**Computação em Nuvem**](https://github.com/2RP-Squad404/Ricardo_Silva#-computa%C3%A7%C3%A3o-em-nuvem)
+5. [**CI/CD**](https://github.com/2RP-Squad404/Ricardo_Silva#-cicd)
 
 ***
 
@@ -70,9 +71,8 @@
 ***
 
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github]
-- [Pesquisas no Google]
-- [Artigos]
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/virtualizacao.md)
+- [Artigo - Red Hat](https://www.redhat.com/pt-br/topics/virtualization/what-is-a-virtual-machine)
 ***
 &nbsp;
 
@@ -274,7 +274,86 @@ O Dataflow é uma poderosa ferramenta para processamento de dados em tempo real 
 - [Azure](https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-cloud-computing)
 ***
 &nbsp;
+## ✨ CI/CD
 
+### 💫 Conceito
+**A Integração Contínua *(CI)* é a prática de integrar, de forma automática e frequente, mudanças a um repositóio de código-fonte compartilhado. Já a Implantação e/ou Entrega Contínua *(CD)* é um processo em duas etapas relacionado a integração, teste e entrega de mudanças no código. A entrega contínua é quase uma implantação automática em produção, enquanto a implantação contínua implica em automaticamente lançar atualizações no ambiente de produção**
+
+
+![ci/cd](/assets/cicd2.png)
+
+**Juntas, essas práticas relacionadas são muitas vezes chamadas de *piplines de CI/CD*. Para implementá-las, é preciso que as equipes de operações e desenvolvimento trabalhem em conjunto seguindo princípios ágeis, com uma abordagem de *DevOps* ou de *Engenharia* de confiabilidade de sites (SRE)**
+***
+
+### 🔍️ Por que CI/CD é importante?
+
+Com uma abordagem de **CI/CD**, as empresas podem evitar bugs e falhas no código, além de manter um ciclo contínuo de desenvolvimento e atualização de software. À medida que os apps evoluem, as funcionalidades de **CI/CD** ajudam a reduzir a complexidade, aumentar a eficiência e simplificar os fluxos de trabalho.
+
+E como o pipeline de **CI/CD** automatiza o trabalho humano que em geral é necessário para que um novo código passe de um *commit* à produção, o downtime é minimizado e as versões atualizadas do código são disponibilizados mais rápido. Além disso, com a capacidade de agilizar a integração de incoporar o feedback dos usuários de maneira mais frequente e eficaz. Isso gera resultados positivos para os usuárops e uma maior satisfação dos clientes em geral.
+***
+
+### 🏷️ Integração Contínua (CI)
+
+**Integração Contínua** é a prática de integrar o código produzido por diferentes membors de uma equipe em um repositório compartilhado com frequência, várias vezes é verificado automaticamente por meio da execução de testes automatizados. O objetivo da *CI* é detectar erros de integração o mais cedo possível, antes que eles causem problemas.
+***
+
+### 🔖 Entrega Contínua (CD)
+
+A **Entrega Contínua** é uma extensão da *Integração Contínua* que se concentra em automatizar a construção, o teste e a implantação de uma solução para um ambiente de produção. A entrega contínua garante que o código esteja sempre em um estado pronto para implantação em produção, tornando a implantação um processo simples e escalável.
+***
+
+### ➕ Fluxo Simplificado CI/CD
+
+Aqui está um exemplo simplificado de um fluxo de **CI/CD** para um projeto:
+
+1. *Um desenvolvedor envia o código para um repositório Git.*
+2. *Um Servidor de Integração (CI) monitora o repositório e detecta a alteração.*
+3. *O Servidor CI realiza a construção do código e executa testes automatizados.*
+4. *Se os testes forem bem-sucessidas, o código é implantado automaticamente em um ambiente de homologação.*
+5. *Testes adicionais, como testes de aceitação são executados no ambiente de homologação.*
+6. *Se todos os testes forem aprovados, o código é implantado em produção.*
+7. *O aplicativo é monitorado em produção, e quaisquer problemas são detectados e tratados imediatamente.*
+***
+
+### Ferramentas de CI/CD
+As ferramentas de **CI/CD** ajudam a equipe a automatizar o desenvolvimento, a implantação e os testes. Algumas ferramentas tratam especificamente da *Integração (CI)*, algumas gerenciam o desenvolvimento e a *Implantação (CD)* e outras são especializadas em testes contínuos ou funções relacionadas. **Tekton Pipelines** é um framework para plataformas [Kubernetes](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes) que proporciona uma experiência de *CI/CD* nativo em nuvem padrão com containers.
+
+Além do **Tekton Pipelines**, existem outras ferramentas open source de **CI/CD**:
+
+- **Jenkins:** *Projetado para lidar com tudo, desde um simples servidor de CI até um Hub de CD completo.*
+- **Spinnaker:** *Uma plataforma de CD criado para ambientes **MultiCloud**.*
+- **GoCD:** *Um servidor de CI/CD voltado para modelagem e visualização.*
+- **Concourse:** *Plataforma open source contínua.*
+- **Screwdriver:** *Plataforma de compilação criada para **CD**.*
+***
+
+### ✅ Vantagens do CI/CD
+
+A **CI/CD** oferece uma gama de benefícios significativos, tais como:
+
+- **Detecção Precoce de Erros:** A **CI** verifica constantemente o código, identificando erros e problemas de integração no estágio mais inicial do desenvolvimento.
+
+- **Maior Qualidade de Software:** A execução de testes automatizados e a revisão contínua do código ajudam a garantir que o software seja mais confiável e livre de bugs.
+
+- **Automatização de Tarefas:** A **CD** automatiza a construção, teste e implantação, economizando tempo e reduzindo a possibilidade de erros humanos.
+
+- **Implantações mais rápidas:** Com  a **CD**, as implantações em produção podem ser feitas com mais frequência e mais facilidade, resultando em ciclos de desenvolvimento mais curtos.
+
+- **Colaboração Eficiente:** A **CI** promove a colaboração contínua entre membros de equipe, garantindo que o código seja integrado e testado.
+
+- **Maior Confiança e Transparência:** Com a **CI/CD**, a equipe temais confiança na estabilidade do código e pode rastrear as alterações com maior facilidade.
+***
+
+### Conclusão
+
+**Em resumo, CI/CD não é apenas uma abordagem moderna para o desenvolvimento de software, mas também uma maneira eficaz de melhorar a qualidade, a eficiência e a colaboração no desenvolvimento de software. É um investimentoque vale a pena para equipes que buscam otimizar seus processos de entrega de software e melhorar a experiência do cliente. A medida que as organizações adotam a cultura DevOps, a CI/CD se torna cada vez mais um componente crítico para entregar softwares de alta qualidade de maneira eficiente e confiável.**
+***
+
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/cicd.md)
+- [Red Hat](https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd)
+- [Unity](https://unity.com/pt/topics/what-is-ci-cd)
+***
 **Desafios Encontrados:**  
 *Os assuntos abordados nessa trilha, foram um pouco mais fácil para entender, pois algumas ferramentas como CRM, ERP, até mesmo o Big Query, eu ja utilizei recentemente ou no passado, porem o restante do conteúdo, ainda sinto mais dificuldade relativamente alta para absorver.*
 
