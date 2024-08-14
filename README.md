@@ -79,9 +79,9 @@
 ## ✨ Docker
 
 ### 💫 Conceito
-**A palavra *Docker* tem várias definições; Um projeto da comunidade open source, ferramentas resultantes desse projeto, a empresa *Docker Inc*, principal apoiadora do projeto, e as ferrametnas compatíveis formalmente com a empresa. O fato da empresa e das tecnologias terem o mesmo nome pode causar alguma confusão**
+**A palavra *Docker* tem várias definições; Um projeto da comunidade open source, ferramentas resultantes desse projeto, a empresa *Docker Inc*, principal apoiadora do projeto, e as ferramentas compatíveis formalmente com a empresa. O fato da empresa e das tecnologias terem o mesmo nome pode causar alguma confusão**
 
-- *O software de TI **Docker** é uma tecnologia de conteinerização para criação e uso de conteineres Linux.*
+- *O software de TI **Docker** é uma tecnologia de containerização para criação e uso de conteineres Linux.*
 - *A comunidade open source do Docker trabalha gratuitamente para melhorar essas tecnologias para todos usuários.*
 - *A empresa **Docker Inc.** se baseia no trabalho feito pela comunidade do Docker, tornando-o mais seguro em geral. Depoi, ela oferece aos clientes empresariais o suporte necessário para as tecnologias, que foram aprimoradas e fortalecidas.*
 
@@ -186,7 +186,7 @@ Os contêineres são componentes de aplicativos leves e executáveis que combina
 
 **Balanceamento de cargo:** *Com base na uilização da CPU ou métricas personalizadas, o balanceamento de carga do Kubernetes pode distribuir a carga de trabalho em toda a arede para manter o desempenho e estabilidade.*
 
-**Expansão automática:** *Quando o tráfego aumenta, o dimensionamento automático do Kubernetes pode criar novos Clusters conforme necessário para lidar com a carga de trabalho adcional.*
+**Expansão automática:** *Quando o tráfego aumenta, o dimensionamento automático do Kubernetes pode criar novos Clusters conforme necessário para lidar com a carga de trabalho adicional.*
 
 **Autocorreção para alta qualidade:** *Quando um contêiner falha, o Kubernetes pode renunciá-lo ou substituí-lo automaticamente para evitar "downtime". Possibilita derrubar contêineres que não atendem aos requisitos de verificação de integridade.*
 ***
@@ -195,13 +195,13 @@ Os contêineres são componentes de aplicativos leves e executáveis que combina
 
 O Docker é um conjunto de ferramentas de desenvolvimento de software para criar, compartilhar e executar contêineres individuais; O Kubernetes é um sistema para operar aplicativos em contêineres padronizadas para microsserviços como todo o código de aplicativo e dependências necessárias dentro. Criar esses contêineres é o domínio do Docker.
 
-Um aplicativo moderno consiste em muitos contêineres, operá-los em produção é o trabalho do Kubernetes. Como os contêineres são fáceis de replicar, os aplicativos pode serm dimensionados automaticamente.
+Um aplicativo moderno consiste em muitos contêineres, operá-los em produção é o trabalho do Kubernetes. Como os contêineres são fáceis de replicar, os aplicativos pode serem dimensionados automaticamente.
 
 **Docker** e **Kubernetes** são, em sua maioria, tecnologias complementares. No entanto, o Docker também fornece um sistema para operar aplicativos em contêineres em escala, chamado **Docker Swarm**.
 ***
 
 ### 🔒️ Conclusão
- **O Kubernetes representa uma revolução na forma como os aplicativos são gerenciados, fornecendo uma plataforma poderosa e flexível para a implantação e orquestração eficientes de contêineres em escala. Com a adoçao generalizada e evolução contínua, o Kubernetes se tornou um pilar fundamental da infraestrutura moderna de TI, capaitando as empresas a impulsionar a invocação e fornecer serviços confiáveis em um mundo cada vez mais digital.**
+ **O Kubernetes representa uma revolução na forma como os aplicativos são gerenciados, fornecendo uma plataforma poderosa e flexível para a implantação e orquestração eficientes de contêineres em escala. Com a adoçao generalizada e evolução contínua, o Kubernetes se tornou um pilar fundamental da infraestrutura moderna de TI, capacitando as empresas a impulsionar a invocação e fornecer serviços confiáveis em um mundo cada vez mais digital.**
 ***
 
 **Recursos Utilizados:**  
@@ -255,7 +255,7 @@ O **Google Cloud Dataflow** é um serviço de processamento de dados em tempo re
 ### ✅ Vantagens do Google Cloud Dataflow
 O Dataflow oferece uma série de benefícios para os desenvolvedores e empresas que precisam lidar com grandes volumes de dados: 
 
-- **Escalabildade:** O serviço é capaz de processar grandes quantidades de dados de forma eficiente, escalando automaticamente de acordo com a demanda.
+- **Escalabilidade:** O serviço é capaz de processar grandes quantidades de dados de forma eficiente, escalando automaticamente de acordo com a demanda.
 
 - **Flexibilidade:** Possibilita escrever códigos em várias linguagens e utilizar bibliotecas e frameworks populares, como *Apache Beam*, para implementar suas transformações de dados.
 
