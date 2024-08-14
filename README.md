@@ -18,7 +18,7 @@
 ## ✨ Modelagem de Dados
 
 ### 💫 Conceito
-**A *Modelagem de Dados* é utilizada para criar um modelo para os dados que serão utilizados em um sistema de informação. Ele define as estruturas lógicas e as relações entre os diferentes tipos de dadodas, se tornando uma base para a construção de Bancos de Dados, e sistemas de gerenciamento de informações. A modelagem de dados busca garantir que os dados sejam organizados de maneira eficiente e que possam ser acessados e manipulados de maneira eficiente**
+**A *Modelagem de Dados* é utilizada para criar um modelo para os dados que serão utilizados em um sistema de informação. Ele define as estruturas lógicas e as relações entre os diferentes tipos de dados, se tornando uma base para a construção de Bancos de Dados, e sistemas de gerenciamento de informações. A modelagem de dados busca garantir que os dados sejam organizados de maneira eficiente e que possam ser acessados e manipulados de maneira eficiente**
 
 ***
 ### 🔖 Por que a Modelagem de Dados é importante 
