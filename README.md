@@ -315,7 +315,7 @@ Aqui está um exemplo simplificado de um fluxo de **CI/CD** para um projeto:
 7. *O aplicativo é monitorado em produção, e quaisquer problemas são detectados e tratados imediatamente.*
 ***
 
-### Ferramentas de CI/CD
+### 🔧 Ferramentas de CI/CD
 As ferramentas de **CI/CD** ajudam a equipe a automatizar o desenvolvimento, a implantação e os testes. Algumas ferramentas tratam especificamente da *Integração (CI)*, algumas gerenciam o desenvolvimento e a *Implantação (CD)* e outras são especializadas em testes contínuos ou funções relacionadas. **Tekton Pipelines** é um framework para plataformas [Kubernetes](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes) que proporciona uma experiência de *CI/CD* nativo em nuvem padrão com containers.
 
 Além do **Tekton Pipelines**, existem outras ferramentas open source de **CI/CD**:
@@ -344,7 +344,7 @@ A **CI/CD** oferece uma gama de benefícios significativos, tais como:
 - **Maior Confiança e Transparência:** Com a **CI/CD**, a equipe temais confiança na estabilidade do código e pode rastrear as alterações com maior facilidade.
 ***
 
-### Conclusão
+### 🔒️ Conclusão
 
 **Em resumo, CI/CD não é apenas uma abordagem moderna para o desenvolvimento de software, mas também uma maneira eficaz de melhorar a qualidade, a eficiência e a colaboração no desenvolvimento de software. É um investimentoque vale a pena para equipes que buscam otimizar seus processos de entrega de software e melhorar a experiência do cliente. A medida que as organizações adotam a cultura DevOps, a CI/CD se torna cada vez mais um componente crítico para entregar softwares de alta qualidade de maneira eficiente e confiável.**
 ***
