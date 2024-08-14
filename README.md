@@ -86,6 +86,8 @@
 - *A empresa **Docker Inc.** se baseia no trabalho feito pela comunidade do Docker, tornando-o mais seguro em geral. Depoi, ela oferece aos clientes empresariais o suporte necessário para as tecnologias, que foram aprimoradas e fortalecidas.*
 
 **Com o Docker, é possível lidar com os conteiners como se fossem máquinas virtuais modulares e extremamente lightweight. Além disso, os conteineres oferecem maior flexibilidade para você criar, implantar, copiar e migrar um contêiner de um ambiente para outro.**
+***
+
 
 ### 🔖 Como o Docker funciona
 
@@ -302,7 +304,7 @@ E como o pipeline de **CI/CD** automatiza o trabalho humano que em geral é nece
 A **Entrega Contínua** é uma extensão da *Integração Contínua* que se concentra em automatizar a construção, o teste e a implantação de uma solução para um ambiente de produção. A entrega contínua garante que o código esteja sempre em um estado pronto para implantação em produção, tornando a implantação um processo simples e escalável.
 ***
 
-### ➕ Fluxo Simplificado CI/CD
+### ➕ Fluxo de Trabalho
 
 Aqui está um exemplo simplificado de um fluxo de **CI/CD** para um projeto:
 
@@ -315,7 +317,7 @@ Aqui está um exemplo simplificado de um fluxo de **CI/CD** para um projeto:
 7. *O aplicativo é monitorado em produção, e quaisquer problemas são detectados e tratados imediatamente.*
 ***
 
-### 🔧 Ferramentas de CI/CD
+### 🔧 Ferramentas e Frameworks
 As ferramentas de **CI/CD** ajudam a equipe a automatizar o desenvolvimento, a implantação e os testes. Algumas ferramentas tratam especificamente da *Integração (CI)*, algumas gerenciam o desenvolvimento e a *Implantação (CD)* e outras são especializadas em testes contínuos ou funções relacionadas. **Tekton Pipelines** é um framework para plataformas [Kubernetes](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes) que proporciona uma experiência de *CI/CD* nativo em nuvem padrão com containers.
 
 Além do **Tekton Pipelines**, existem outras ferramentas open source de **CI/CD**:
