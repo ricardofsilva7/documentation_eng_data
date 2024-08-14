@@ -105,10 +105,14 @@ A tecnologia **Docker** usa o *Kernel* do *Linux* e funcionalidades do Kernel, c
 
  ### 🔧 Principais Componentes
 
- `Containers:` Unidades leves e potáteis que encapsulam o aplicativo e suas dependências em um ambiente isolado
+ `Containers:` Unidades leves e potáteis que encapsulam o aplicativo e suas dependências em um ambiente isolado.
+
  `Imagens Docker:` São modelos para ciração de contêineres, contêm o código-fonte, bibliotecas eoutras dependências necessárias para o aplicativo.
+
  `Dockerfile:` É um script que contém uma série de instruções para construir uma imagem Docker, define o ambiente necessário para o aplicativo e como deve ser configurado.
+
  `Docker Hub:` Registro público de imagens Docker, onde você pode encontrar e compartilhar imagens de contêiner.
+ 
  `Docker Compose:` Uma ferramenta para definir e gerenciar aplicações multi-contêineres. Usando um arquivo **YAML**, você pode configurar serviços, redes e volumes necessários para execuar uma aplicação composta por vários contêineres.
 ***
 
