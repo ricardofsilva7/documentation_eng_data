@@ -70,6 +70,8 @@ Para declarar que o script deve ser interpretado por _Bourne-Again shell(Bash)_ 
  - **$$** - Armazena o valor **PID (Process Identifier)** do script em shell que estiver em execução.
  - **$@** - Armazena o valor de todos os parâmetros passados, similar a variável _argv_ presente nas linguagens de programação _C_ e _C#_.
  - **$!** - Armazena o PID do último processo em segundo plano. Isso é útil para acompanhar o processo à medida que o trabalho é realizado.
+ 
+&nbsp;
 
 
  **Variáveis Globais:** São variáveis criadas/definidas com o comando expert e podem ser utilizados por múltipos scripts em Shell. Um exemplo é a variável de ambiente _Lang(Pré definida em diversas distribuições Linux)_, podendo ser acessado por diversos arquivos de script em Shell - outras variáveis pré-definidas são:
@@ -151,6 +153,7 @@ As principais características do PySpark incluem:
 - **Integração com Biblioteca Python:** A possibilidade de combinar PySpartk com outras bibliotecas Python, como _Numpy_, _pandas_ e _Stick-learn_.
 
 - **MLlib:** Uma biblioteca para aprendizado de máquina em larga escala que oferece algoritmos otimizados para ambientes distribuídos (executados através de diversas máquinas).
+***
 
 ### ✅  Principais Vantagens
 
