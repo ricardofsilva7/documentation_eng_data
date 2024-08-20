@@ -304,7 +304,6 @@ A mensageria é uma tecnologia essencial para a construção de sistemas distrib
 ***
 **Recursos Utilizados:**  
 - [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/mensageria.md)
-- [Pesquisas no Google]
 - [Artigo](https://crmpiperun.com/blog/mensageria/#:~:text=A%20mensageria%2C%20ou%20%E2%80%9Cmessaging%E2%80%9D,conversa%20direta%20com%20um%20vendedor.)
 ***
 &nbsp;
