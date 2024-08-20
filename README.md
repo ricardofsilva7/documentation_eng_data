@@ -323,4 +323,6 @@ A mensageria é uma tecnologia essencial para a construção de sistemas distrib
 [**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1)
 
 [**3ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana3)
+
+[**4ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4)
 ***
