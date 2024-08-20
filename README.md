@@ -4,8 +4,8 @@
 **Data: 20/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Linux/Shell**](https://github.com/2RP-Squad404/Ricardo_Silva#-linuxshell)
-2. [**Linguagens e Frameworks (Python)**](https://github.com/2RP-Squad404/Ricardo_Silva#-linguagens-e-frameworks-python)
+1. [**Linux/Shell**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-linuxshell)
+2. [**Linguagens e Frameworks (Python)**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-linguagens-e-frameworks-python)
 3. [**Apache Spark**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-apache-spark)
 4. [**Análise de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-an%C3%A1lise-de-dados)
 
