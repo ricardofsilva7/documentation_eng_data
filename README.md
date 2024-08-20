@@ -5,7 +5,8 @@
 
 **Módulos/Etapas Feitas:**  
 1. [**Linux/Shell**](https://github.com/2RP-Squad404/Ricardo_Silva#-linuxshell)
-2. [**Linguagens e Frameworks (Python)**]()
+2. [**Linguagens e Frameworks (Python)**](https://github.com/2RP-Squad404/Ricardo_Silva#-linguagens-e-frameworks-python)
+3. [**Apache Spark**]()
 
 ***
 
@@ -101,7 +102,7 @@ Para declarar que o script deve ser interpretado por _Bourne-Again shell(Bash)_ 
 
 A sintaxe do Python é projetada para ser clara e concisa, o que facilita a compreensão e o desenvolvimento de código. O Python utiliza identificação em vez de chaves para delimitar blocos de código o que torna o código mais legível e evita erros comuns na formatação.
 
-**Ampa Bibiloteca Padrão**
+**Ampla Bibiloteca Padrão**
 
 O Python possui uma vasta coleção de módulos e pacotes que abrangem uma ampla gama de funcionalidades, desde manipulação de arquivos e acesso a bancos de dados até o processamento de texto e criação de interfaces gráficas. Essa biblioteca padrão rica permite que os profissionais de tecnologia desenvolvam rapidaemnte soluções para uma variedade de problemas.
 
@@ -127,15 +128,50 @@ A linguagem Python pode ser aplicada em diversos contextos, incluindo:
 ***
 
 **Recursos Utilizados:**  
-- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/linux_shell.md)
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/linguagens_frameworks.md#introdu%C3%A7%C3%A3o-ao-python)
 - [Artigo - Tokio scholl](hhttps://tokioschool.pt/noticias/vantagens-python/#:~:text=Vantagens%20da%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Python&text=Produtividade%3A%20Python%20permite%20que%20os,solid%C3%A1ria%2C%20proporcionando%20suporte%20e%20recursos.)
 - [AWS](https://aws.amazon.com/pt/what-is/python/)
 - [Awari](https://awari.com.br/as-caracteristicas-do-python-que-todo-profissional-de-tecnologia-deve-conhecer/)
 ***
-
 &nbsp;
 
+## ✨ Apache Spark
+### 💫 Conceito
+**O Apache Spark é um sistema de processamento distribuído de código aberto usado para workleads de big data. O sistema usa armazenamento em cache na memória e execução otimizada de consultas para oferecer consultas analíticas rápidas de dados de qualquer tamanho. Fornece _API's_ de desenvolvimento em _Java, Scala Python_ e _R_, é compatível coma reutilização de código em vários workloads: processamento de lotes, consultas interativas, análises em tempo real, machine learning e prcessamento de gráficos. PySpark e a API Python para Apache Spark permite que você execute processamento de dados em larga escala e em tempo real em um ambiente distribuído usando Python. Ela também fornece um shell PySpark para analisar seus dados interativamente.**
 ***
+
+### 💡 Principais Características
+As principais características do PySpark incluem:
+
+- **Dataframe API:** Estruturas de dados semelhantes a tabelas, otimizadas para cálculos distribuídos, que podem ser manipulados usando operações semelhantes ás do pandas, biblioteca Python popular para análise.
+
+- **Integração com Biblioteca Python:** A possibilidade de combinar PySpartk com outras bibliotecas Python, como _Numpy_, _pandas_ e _Stick-learn_.
+
+- **MLlib:** Uma biblioteca para aprendizado de máquina em larga escala que oferece algoritmos otimizados para ambientes distribuídos (executados através de diversas máquinas).
+
+### ✅  Principais Vantagens
+
+- *Com o uso do PySpartk, é possível o processamento de dados em _Hadoop(HDFS)_, _AWS S3_ e outros sistemas de arquivos.*
+
+- *Possui bibliotecas de aprendizado de máquina e gráficos.*
+
+- *Geralmente as aplicações criadas e executadas no PySpark são 100x mais rápidas que outras em sistemas de dados conhecidos.*
+
+- *Apesar de ser conhecido pela linguagem Python, PySparkt suporta outras linguagens além do Python como Java, Scala e R.*
+
+- *É uma ferramenta open source, o que siginifca que é totalmente gratuíta para uso comercial e não comercial.*
+
+- *Pode facilmente integrado com outras ferrametnas, como Pandas, e  o Script-learn, permiitindo a construção de pipelines de Machine Learning mais complexos.*
+***
+### 🔒️ Conclusão
+**O PySpark apresenta  diversas vantagens como a facilidade de programação em Python, o suporte a múltiplas fontes de dados, a capacidade de processamento distribuído e escalabilidade horizontal. Com o PySpark, é possível realizar análises e extrações de informações em grandes volumes de dados com mais eficiência e agilidade.**
+****
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/linguagens_frameworks.md#introdu%C3%A7%C3%A3o-ao-apache-spark-pyspark)
+- [Documentação - PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
+- [Artigo](https://blog.dsacademy.com.br/pyspark-analise-de-dados-em-larga-escala-e-a-intersecao-com-sql/#:~:text=As%20principais%20caracter%C3%ADsticas%20do%20PySpark,popular%20para%20an%C3%A1lise%20de%20dados.)
+***
+
 **Desafios Encontrados:**  
 *Os assuntos dessa semana foram relativamente dificeis, como a parte do Shell e comandos, pois é um assunto que nunca me aprofundei, apesar de ja ter utilizado comandos Shell, o restante dos asssuntos estudados foram um pouco mais tranquilo em realação ao assunto do Linux/Shell.*
 
