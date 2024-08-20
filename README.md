@@ -6,7 +6,8 @@
 **Módulos/Etapas Feitas:**  
 1. [**Linux/Shell**](https://github.com/2RP-Squad404/Ricardo_Silva#-linuxshell)
 2. [**Linguagens e Frameworks (Python)**](https://github.com/2RP-Squad404/Ricardo_Silva#-linguagens-e-frameworks-python)
-3. [**Apache Spark**]()
+3. [**Apache Spark**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-apache-spark)
+4. [**Análise de Dados**]()
 
 ***
 
@@ -170,6 +171,44 @@ As principais características do PySpark incluem:
 - [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/linguagens_frameworks.md#introdu%C3%A7%C3%A3o-ao-apache-spark-pyspark)
 - [Documentação - PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
 - [Artigo](https://blog.dsacademy.com.br/pyspark-analise-de-dados-em-larga-escala-e-a-intersecao-com-sql/#:~:text=As%20principais%20caracter%C3%ADsticas%20do%20PySpark,popular%20para%20an%C3%A1lise%20de%20dados.)
+***
+
+## ✨ Análise de dados
+
+### 💫 Conceito
+**A análise de dados é um processo de inspeção, limpeza, transformação e modelagem de dados com o objetivo de descobrir informações úteis, chegar a conclusões e apoiar a tomada de decisção. Ela é essencial em diversos campos, desde negócios e um papel crucial em ajudar organizações e indivíduos e entenderem e a utilizarem eficientemente as informções contidas no dados.**
+
+### 🔖  Tipos de Análise de dados
+Nesse contexto, existem quatro tipos de análise de dados que você pode utilizar. Confira a seguir:
+
+- **Análise Descritiva:** A análise descritiva é um dos tipos de análises de dados com base em fatos que já aconteceram como o próprio nome sugere, essa análise precisa descrever e torna visível um fato que aconteceu na empresa. Então, ela identifica problemas, recolhe e interpreta os dados para apresentar informações e resultados. São exemplos de análise descritivas, os relatórios, análises de negócios e a avaliação de resultados e métricas.
+
+- **Análise Preditiva:** É o tipo de análise que tem o objetivo de prever cenários futuros com base na análise de prever cenários futuros com base na análise de padrões de dados. É importante ter em mente que, em uma análise preditivia, não é possível prever o que vai acontecer. E sim, o que _deve_ acontecer _se_ de determinadas condições se confirmem. Sendo assim, dados, insumos sociais e estatísticas que formam padrões para criar um algoritmo. Esse algoritmo é utilizado para ensinar máquinas, padrão de repetição, a partir disso, cria-se uma constância que serva para fazer previsã de comportamentos futuros.
+
+- **Análise Prescritiva:** Á análise prescritiva utiliza algumas ferramentas estatísticas alinhadas á gestão de negócios para alcançar melhores resultados nos objetivos estratégicos, de maneira geral é uma análise que fornece dados que indicam caminho para tomar decisões e alcançar resultados. Por isso, ela funciona como uma recomendação a algo potencialmente previsto. Assim, a melhor forma de fazer análises prescritivas é criando projeções, e a partir disso, direcionar esforços para obeter resultados melhores.
+
+- **Análise Diagnóstica:** Por fim, a análise diagnóstica se concentra em fatos que já aconteceram, assim como análise descritiva. No entando, diferentemente da descritiva, esse tipo de análise tem como objetivo ecnontrar relações de causa e efeito para destrinchar algum acontecimento.
+***
+
+### 🔧  Fluxo de Trabalho
+1. **Definição do problema:** *Identifique claramente qual é o objetivo da análise de dados e quais sção as perguntas que deseja responder.
+2. **Coleta de dados:** *Reúna os dados necessários para a análise, seja por meio de bases de dados existentes, pesquisas de campo, entrevista, entre outras fontes.
+3. **Limpeza de dados:** *Verifique a qualidade dos dadso, identifique e corrija possíveis erros, preencha valores faltantes e padronize os formatos.
+4. **Exploração de dados:** *Realize uma análise exploratória para compreender a estrutura dos dados, identifique padrões, tendências e anomalias.*
+5. **Análise estatística:** *Aplique técnicas estatísticas para extrair insights dos dados, como medidas de tendência central, dispersão, correlação, regressão, entre outros.*
+6. **Visualização de dados:** *Representa os resultados da análise de forma visual, por meio de gráficos, tabelas e dashboards para faclitar a interpretação e comunicação dos resultados.*
+7. **Interpretação dos resultados:** *Análise os insights obtidos a partir dos dasos, responder as perguntas iniciais e tirar conclusões que possam auxiliar na atomada de decisão*
+8. **Comunicação dos resultados:** *Apresente os resultados da análise de dados de forma clara e objetiva, de modo que possam ser comprrendidos por todas as pessaos do time.*
+***
+
+### 🔒️ Conclusão
+**Entender oque é análise de dados e trabalhar com ela é um decisão inteligente. Quanto maior o volume de informações a se coletar, organizar, armazenar e analisar, mais dificuldade você pode ter. No entatnto, contar com o apoio de profissionais capacitados e uma ferramenta de análise de dados reduz o trabalho e garante bons resultados.Tendo em mãos a tecnologia necessária para trabalhar na captação e no enriquecimento dos dados, você pode se dedicar a tomar decisões — que serão mais rápidas, seguras e eficazes.**
+***
+
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/analise_de_dados.md)
+- [Artigo - Cortex Inteligente](https://www.cortex-intelligence.com/blog/inteligencia-de-mercado/o-que-e-analise-de-dados#:~:text=A%20an%C3%A1lise%20de%20dados%20%C3%A9,que%20a%20t%C3%A9cnica%20ganha%20destaque.)
+- [Artigo - Alura](https://www.alura.com.br/empresas/artigos/analise-de-dados?srsltid=AfmBOoqh7h7dAufDL8TgI6ffpeFMherlu5SWAbmpxTjUJXWSLlkBgoGO)
 ***
 
 **Desafios Encontrados:**  
