@@ -4,7 +4,8 @@
 **Data: 20/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Linux/Shell**]()
+1. [**Linux/Shell**](https://github.com/2RP-Squad404/Ricardo_Silva#-linuxshell)
+2. [**Linguagens e Frameworks (Python)**]()
 
 ***
 
@@ -86,7 +87,55 @@ Para declarar que o script deve ser interpretado por _Bourne-Again shell(Bash)_ 
 - [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/linux_shell.md)
 - [Artigo - DevMedia](https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778)
 ***
+&nbsp;
+## ✨ Linguagens e Frameworks (Python)
 
+### 💫 Conceito
+**O _Python_ é uma linguagem de programação amplamente usada em _aplicações web, desenvolvimento de softwares, ciência de dados e machine learning_. Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executado em muitas plataformas diferentes. O software Python pode ser baixado gratuitamente, integra-se bem a todos os tipos de sistema e agiliza o desenvolvimento.**
+***
+
+### 📝  Principais Características
+
+
+**Simplicidade e Legibilidade**
+
+A sintaxe do Python é projetada para ser clara e concisa, o que facilita a compreensão e o desenvolvimento de código. O Python utiliza identificação em vez de chaves para delimitar blocos de código o que torna o código mais legível e evita erros comuns na formatação.
+
+**Ampa Bibiloteca Padrão**
+
+O Python possui uma vasta coleção de módulos e pacotes que abrangem uma ampla gama de funcionalidades, desde manipulação de arquivos e acesso a bancos de dados até o processamento de texto e criação de interfaces gráficas. Essa biblioteca padrão rica permite que os profissionais de tecnologia desenvolvam rapidaemnte soluções para uma variedade de problemas.
+
+**Orientação a Objetos**
+
+A orientação  objetos permite uma organização estruturadad do código, promovendo a reutilização e modularidade. Com o Python, os profissionais de tecnologia podem criar classes e objetos, encapsulando em unidades independentes e interativas.
+
+**Facilidade na Integração**
+
+Ele oferece suporte a diversas interfaces e protocolos, como _C_, _C++_, _Java_ e _.NET_, oque permite a integração perfeita com diferentes componentes e bibliotecas. Além disso, o Python também possui suporte a chamadas de sistema e manipulação de arquivos, facilitando a integração com o sistema operacional.
+***
+
+### 🏷️ Casos de Uso
+A linguagem Python pode ser aplicada em diversos contextos, incluindo:
+
+- **Desenvolvimento Web:** Ferramentas como Django e Flash tornam o desenvolvimento de aplicativos ewb eficiente e escalável.
+- **Ciência de Dados:** Python é amplamente utilizado para análises de dados, com bibliotecas como _Pandas_ e _Matplotlib_.
+- **Machine Learning e Inteligênica Artificial:** _TensorFlow_ e _Pytorch_ são bibliotecas líderes em _IA_ que utilizam Python como base.
+***
+
+### 🔒️ Conclusão
+**Em resumo, as principais características de Python, juntamente com os benefícios que ele oferece aos profissionais de tecnologia, tornam essa linguagem uma escolha essencial e vantajosa para quem busca avançar em sua carreira na área de tecnologia. A simplicidade, legibilidadem versatilidade e ampla gama de aplicações do Python o tornam uma linguagem valiosa e procurada no mercado de trabalho. Além disso, sua comunidade ativa e suporte contínuo fornecem recursos e oportunidades de aprendizado. Portanto, se você é um profissional de tecnologia, investir no aprendizado e no domínio do Python certamente impulsionará sua carreira e abrirá novas oportunidades profissionais.**
+***
+
+**Recursos Utilizados:**  
+- [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/linux_shell.md)
+- [Artigo - Tokio scholl](hhttps://tokioschool.pt/noticias/vantagens-python/#:~:text=Vantagens%20da%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Python&text=Produtividade%3A%20Python%20permite%20que%20os,solid%C3%A1ria%2C%20proporcionando%20suporte%20e%20recursos.)
+- [AWS](https://aws.amazon.com/pt/what-is/python/)
+- [Awari](https://awari.com.br/as-caracteristicas-do-python-que-todo-profissional-de-tecnologia-deve-conhecer/)
+***
+
+&nbsp;
+
+***
 **Desafios Encontrados:**  
 *Os assuntos dessa semana foram relativamente dificeis, como a parte do Shell e comandos, pois é um assunto que nunca me aprofundei, apesar de ja ter utilizado comandos Shell, o restante dos asssuntos estudados foram um pouco mais tranquilo em realação ao assunto do Linux/Shell.*
 
