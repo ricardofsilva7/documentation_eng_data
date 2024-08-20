@@ -132,7 +132,7 @@ A linguagem Python pode ser aplicada em diversos contextos, incluindo:
 
 **Recursos Utilizados:**  
 - [Trilha de Conhecimento - Github](https://github.com/Game-JAVA/data_engineer/blob/main/wiki/subpages/linguagens_frameworks.md#introdu%C3%A7%C3%A3o-ao-python)
-- [Artigo - Tokio scholl](hhttps://tokioschool.pt/noticias/vantagens-python/#:~:text=Vantagens%20da%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Python&text=Produtividade%3A%20Python%20permite%20que%20os,solid%C3%A1ria%2C%20proporcionando%20suporte%20e%20recursos.)
+- [Artigo - Tokio scholl](https://tokioschool.pt/noticias/vantagens-python/#:~:text=Vantagens%20da%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Python&text=Produtividade%3A%20Python%20permite%20que%20os,solid%C3%A1ria%2C%20proporcionando%20suporte%20e%20recursos.)
 - [AWS](https://aws.amazon.com/pt/what-is/python/)
 - [Awari](https://awari.com.br/as-caracteristicas-do-python-que-todo-profissional-de-tecnologia-deve-conhecer/)
 ***
