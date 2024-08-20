@@ -154,7 +154,7 @@ O Docker oferece um sistema de versionamento de imagens, permitindo o uso de con
 **Kubernetes (também conhecido como *K8S* ou *KUBE*) é uma plataforma de orquestração de contêiner para agendar e automatizar a implantação, o gerenciamento e o dimensionamento de app's em contêineres. Kubernetes foi inicialmente desenvolvido por engenheiros da Google antes de ser disponibilizado como código aberto em 2014. É descendente da *Borg*, uma plataforma de orquestração de contêineres usada internamente no Google. *Kuvernetes* siginfica "timoneiro" ou "piloto" em grego, dai o leme no logotipo do Kubernetes. Atualmente o Kubernetes e o amplo ecossistema de contêineres estão se desenvolvendo como uma plataforma de computação de uso geral que concorre, e em alguns casos supera, as máquinas virtuais como os elementos fundamentais da infraestrutura de nuvem moderna e das aplicações. Esse ecossitema permite que organizações forneçam uma plataforma como serviços *PaaS* de alta produtividade que aborda diversas tarefas e problemas relacionados à infraestrutura e as operações que envolvem o desenvolvimento *nativo da nuvem*, para que as equipes de desenvolvimento possam concetrar exclusivamente na codificação e na inovação.**
 ***
 
-### 🔍️ Oque são Contêineres
+### 🔍️ O que são Contêineres
 
 Os contêineres são componentes de aplicativos leves e executáveis que combinam o código-fonte do aplicativo com todas as bibliotecas do sistema operacional (S.O.) e as depedências necessárias para executar o código em qualquer ambiente. Os contêineres aproveitam uma forma de virtualização do sistema operacional que permite à várias aplicações compartilharem um única instância de um S.O, isolando processos e controlando a quantidade de *CPU*, *Memória* e *Disco* que esses processos podem acessar. Como são menores e mais eficientes em termos de recursos e com maior portabilidade do que as VM's, os contêineres se tornaram as unidades de computação de fato dosmodernos aplicativos nativos em nuvem.
 ***
@@ -371,4 +371,6 @@ A **CI/CD** oferece uma gama de benefícios significativos, tais como:
 [**1ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1)
 
 [**2ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
+
+[**4ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4)
 ***
