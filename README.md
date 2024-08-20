@@ -7,7 +7,7 @@
 1. [**Linux/Shell**](https://github.com/2RP-Squad404/Ricardo_Silva#-linuxshell)
 2. [**Linguagens e Frameworks (Python)**](https://github.com/2RP-Squad404/Ricardo_Silva#-linguagens-e-frameworks-python)
 3. [**Apache Spark**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-apache-spark)
-4. [**Análise de Dados**]()
+4. [**Análise de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-an%C3%A1lise-de-dados)
 
 ***
 
@@ -38,20 +38,22 @@ O uso automatizado (não-interativo) do Shell script (utilizando arquivos com co
 ***
 ### 💡 Funcionalidades e Capacidades
 
-- **Selecionar Shell:** Para selecionar qual Shell será utilizado, use a combinação de hashtagh **(#)** mais exclamação **(!)** e o caminho do excutável na primeira linha do script, isso vem a ser conhecido como **Shebang**. Para declarar que o script deve ser interpretado por _Bourn Shell (sh)_, a primeira linha será ecrita da seguinte forma:
+**Selecionar Shell:** Para selecionar qual Shell será utilizado, use a combinação de hashtagh **(#)** mais exclamação **(!)** e o caminho do excutável na primeira linha do script, isso vem a ser conhecido como **Shebang**. Para declarar que o script deve ser interpretado por _Bourn Shell (sh)_, a primeira linha será ecrita da seguinte forma:
 
 ~~~
                                           #!/bin/sh
 ~~~~
+&nbsp;
+
 
 Para declarar que o script deve ser interpretado por _Bourne-Again shell(Bash)_ é recomendável utilização do comando **env**, pelo fato que apesar de o Bash já vir instalado em muitas distribuições _Linux_, não sabemos se estará em todas elas no mesmo diretório _/bin/_, então deve usar da seguinte forma:
 
 ~~~
                                     #!/usr/bin/env bash
 ~~~
+&nbsp;
 
-
-- **Variáveis:** Em uma breve explicação uma variável é um nome/objeto simbólico ao qual podemos atribuir valor, ler ou manipular o conteúdo. Os scripts em Shell podem lidar com diferentes tipos de variáveis sem precisar definir o tipo:
+**Variáveis:** Em uma breve explicação uma variável é um nome/objeto simbólico ao qual podemos atribuir valor, ler ou manipular o conteúdo. Os scripts em Shell podem lidar com diferentes tipos de variáveis sem precisar definir o tipo:
 ~~~~
                             mensagem_tipo1 = "Unix Shell"
                             MENSAGEM_NOME = "Bourne Shell"
