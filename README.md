@@ -187,9 +187,9 @@
 
 **Relatorios:**
 
-[**Semana 2**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
+[**2ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana2)
 
-[**Semana 3**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana3)
+[**3ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana3)
 
 [**4ª Semana**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4)
 
