@@ -65,11 +65,11 @@ Para declarar que o script deve ser interpretado por _Bourne-Again shell(Bash)_ 
 
  **Variáveis pré-definidas:** Os scripts em Shell  possuem as seguintes variáveis pré-definidas:
  
- - **#?** - Armazena o status de saída do último programa executado
- - **$#** - Armazena a quantidade de parâmetros de linha de comando.
- - **$$** - Armazena o valor **PID (Process Identifier)** do script em shell que estiver em execução.
- - **$@** - Armazena o valor de todos os parâmetros passados, similar a variável _argv_ presente nas linguagens de programação _C_ e _C#_.
- - **$!** - Armazena o PID do último processo em segundo plano. Isso é útil para acompanhar o processo à medida que o trabalho é realizado.
+ - `#?` - Armazena o status de saída do último programa executado
+ - `$#` - Armazena a quantidade de parâmetros de linha de comando.
+ - `$$` - Armazena o valor **PID (Process Identifier)** do script em shell que estiver em execução.
+ - `$@` - Armazena o valor de todos os parâmetros passados, similar a variável _argv_ presente nas linguagens de programação _C_ e _C#_.
+ - `$!` - Armazena o PID do último processo em segundo plano. Isso é útil para acompanhar o processo à medida que o trabalho é realizado.
  
 &nbsp;
 
