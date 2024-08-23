@@ -89,7 +89,7 @@ df_date.printSchema()
  
  ![airflow-config](/assets/airflow.png)
 
-**Finalmente, criamos o script para gerar a conexão entres as ferramentas:**
+**Finalmente, criamos o script na pasta do Docker _('app')_ para gerar a conexão entres as ferramentas:**
 ~~~
 from pyspark.sql.functions import month, year, col, round, current_timestamp, desc
 
