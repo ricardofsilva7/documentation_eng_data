@@ -1,7 +1,7 @@
 # 📜 Relatório
 
 **Nome do Estagiário: Ricardo Silva**  
-**Data: 20/08/2024**
+**Data: 30/08/2024**
 
 **Módulos/Etapas Feitas:**  
 1. **Docker**
@@ -10,7 +10,7 @@
 
 ***
 
-## 📚 Resumo do Desafio 
+## 📚 Resumo da Tarefa
 &nbsp;
 
 ### 💫 Primeiros Passos
@@ -19,95 +19,155 @@
 - **Posteriormente criamos um novo _note_ no Zeppelin _(localhost:80080)_ e importamos a base dados conforme o caminho do MinIO.**
 - **Iniciamos as Query conforme solicitado no desafio**
 
-<br>
+**Obs: O arquivo em SQL se encontra na pasta assets deste repositório.**
+***
 
-### 1. **Importando o banco de dados**
+
+
+### 1. **Criação das tabelas**
 ~~~
-%livy.pyspark
-df = spark.read.option("header","true").csv("s3a://desafio-docker/purchases_2023.csv")
-df.show()
-~~~
+%hive
 
-<br>
-
-### 2. **Selecionando por data (30 dias)**
-~~~
-%livy.pyspark
-df.filter(df["purchase_datetime"].between("2023-04-01", "2023-04-31")).show()
-~~~
-<br>
-
-### 3. **Selceionar colunas mais importantes**
-~~~
-%livy.pyspark
-df.select("product_id", "amount", "price","discount_applied", "payment_method", "purchase_datetime","purchase_location", "client_id").show()
-~~~
-
-**Obs: Como não sabemos qual o objetivo da consulta, considerei que todos são importantes.**
-
-
-<br>
-
-### 4. **Tratamento de dados**
-~~~
-%livy.pyspark
-from pyspark.sql.functions import round
-
-df_around = df.withColumn("price", round(col("price"), 2))
-
-df_around.show()
+CREATE TABLE campaigns (
+    lines BIGINT,
+    id_campaign STRING,
+    type_campaign STRING,
+    days_valid STRING,
+    data_campaign STRING,
+    channel STRING,
+    return_status STRING,
+    return_date STRING,
+    client_id STRING
+) ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION 's3a://datasets/campaign_data/'
+TBLPROPERTIES ("skip.header.line.count"="1")
 ~~~
 
-### 5. **Pipeline - Airflow**
-
-<br>
-
-**Primeiro deve alterar as variáveis**
 ~~~
-%livy.pyspark
-df_date = df_date.withColumn("amount", col("amount").cast("int"))
-df_date = df_date.withColumn("discount_applied", col("discount_applied").cast("double"))
-df_date = df_date.withColumn("purchase_datetime", col("purchase_datetime").cast("timestamp"))
-df_date = df_date.withColumn("date_hour", col("date_hour").cast("timestamp"))
-df_date.printSchema()
-~~~
-<br>
+%hive
 
-**Posteriormente, criamos a tabela para pode enviar ao Airflow**
-~~~
-%livy.pyspark
-df_date = df_date.withColumn("amount", col("amount").cast("int"))
-df_date = df_date.withColumn("discount_applied", col("discount_applied").cast("double"))
-df_date = df_date.withColumn("purchase_datetime", col("purchase_datetime").cast("timestamp"))
-df_date = df_date.withColumn("date_hour", col("date_hour").cast("timestamp"))
-df_date.printSchema()
+CREATE TABLE purchases (
+    purchase_id STRING,
+    product_name STRING,
+    product_id STRING,
+    amount INT,
+    price DECIMAL(10, 2),
+    discount_applied DOUBLE,
+    payment_method STRING,
+    purchase_datetime TIMESTAMP,
+    purchase_location STRING,
+    client_id STRING
+) ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION 's3a://datasets/purcashe_data/'
+TBLPROPERTIES ("skip.header.line.count"="1")
 ~~~
 
 <br>
 
-**Posteriormente precisamos configuração a conexão do Airflow da seguinte maneira:**
- 
- ![airflow-config](/assets/airflow.png)
-
-**Finalmente, criamos o script na pasta do Docker _('app')_ para gerar a conexão entres as ferramentas:**
+### 2. **Carregar Datasets**
 ~~~
-from pyspark.sql.functions import month, year, col, round, current_timestamp, desc
+%hive
 
-df = spark.read.option("header", "true").csv("s3a://desafio-docker/purchases_2023.csv")
-df = df.withColumn("price", round("price", 2))
+LOAD DATA INPATH 's3a://datasets/campaigns_2023_hist.csv' INTO TABLE campaigns
+~~~
+~~~
+%hive
 
-mes = 4
-df_mes = df.filter((month(col("purchase_datetime")) == mes))
+LOAD DATA INPATH 's3a://datasets/purchases_2023.csv' INTO TABLE purchases
+~~~
+<br>
 
-df_multi = df_mes.withColumn("amount_price", col("price") * col("amount"))
+### 3. **Selecionar tabelas**
+~~~
+%hive
+SELECT * FROM campaigns
+~~~
+~~~
+%hive
+SELECT * FROM purchases
+~~~
 
-df_date = df_multi.withColumn("date_hour", current_timestamp()).orderBy(desc("price"))
+<br>
 
-df_date = df_date.withColumn("amount", col("amount").cast("int"))
-df_date = df_date.withColumn("discount_applied", col("discount_applied").cast("double"))
-df_date = df_date.withColumn("purchase_datetime", col("purchase_datetime").cast("timestamp"))
-df_date = df_date.withColumn("date_hour", col("date_hour").cast("timestamp"))
+### 4. **Normalização de dados conforme solicitado**
+~~~
+%hive
+SELECT
+    client_id,
+    ROUND(SUM(price * amount * discount_applied), 2) AS total_price,
+    MAX(purchase_location) AS most_purchase_location,
+    DATE_FORMAT(MIN(purchase_datetime), 'yyyy-MM-dd HH:mm') AS first_purchase,
+    DATE_FORMAT(MAX(purchase_datetime), 'yyyy-MM-dd HH:mm') AS last_purchase
+FROM purchases
+~~~
 
-df_date.write.format("orc").option("orc.compression", "zlib").option("spark.sql.files.maxRecordsPerfile","-1").insertInto("default.purchase")
+<br>
+
+### 5. **Query para _most campaign_**
+
+~~~
+%hive
+
+SELECT 
+    client_id, 
+    SUM(CASE WHEN return_status != 'error' THEN 1 ELSE 0 END) AS most_campaign,
+        SUM(CASE WHEN return_status = 'error' THEN 1 ELSE 0 END) AS quantity_error
+FROM 
+    campaigns
+GROUP BY 
+    client_id
+~~~
+
+<br>
+
+### 6. **Query para _quantity error_**
+
+~~~
+%hive
+
+SELECT
+    id_campaign,
+    COUNT(*) AS quantity_error
+FROM
+    campaigns
+WHERE
+    return_status = 'sms'
+GROUP BY
+    id_campaign
+~~~
+
+<br>
+
+### 7. **Script completo**
+~~~
+%hive
+
+SELECT
+    p.client_id,
+    ROUND(SUM(p.price * p.amount * p.discount_applied), 2) AS total_price,
+    MAX(p.purchase_location) AS most_purchase_location,
+    DATE_FORMAT(MIN(p.purchase_datetime), 'yyyy-MM-dd HH:mm') AS first_purchase,
+    DATE_FORMAT(MAX(p.purchase_datetime), 'yyyy-MM-dd HH:mm') AS last_purchase,
+    COALESCE(MAX(c.most_campaign), 0) AS most_campaign,
+    COALESCE(MAX(c.quantity_error), 0) AS quantity_error
+FROM 
+    purchases p
+LEFT JOIN (
+    SELECT 
+        client_id, 
+        SUM(CASE WHEN return_status != 'error' THEN 1 ELSE 0 END) AS most_campaign,
+        SUM(CASE WHEN return_status = 'error' THEN 1 ELSE 0 END) AS quantity_error
+    FROM 
+        campaigns
+    GROUP BY 
+        client_id
+) c
+ON p.client_id = c.client_id
+GROUP BY 
+    p.client_id
 ~~~
 ***
