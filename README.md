@@ -4,11 +4,11 @@
 **Data: 14/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Virtualização**](https://github.com/2RP-Squad404/Ricardo_Silva#-virtualiza%C3%A7%C3%A3o)
-2. [**Docker**](https://github.com/2RP-Squad404/Ricardo_Silva#-docker)
-3. [**Kubernetes**](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes)
-4. [**Computação em Nuvem**](https://github.com/2RP-Squad404/Ricardo_Silva#-computa%C3%A7%C3%A3o-em-nuvem)
-5. [**CI/CD**](https://github.com/2RP-Squad404/Ricardo_Silva#-cicd)
+1. [**Virtualização**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana3?tab=readme-ov-file#-virtualiza%C3%A7%C3%A3o)
+2. [**Docker**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana3?tab=readme-ov-file#-docker)
+3. [**Kubernetes**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana3?tab=readme-ov-file#-kubernetes)
+4. [**Computação em Nuvem**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana3?tab=readme-ov-file#-computa%C3%A7%C3%A3o-em-nuvem)
+5. [**CI/CD**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana3?tab=readme-ov-file#-cicd)
 
 ***
 
@@ -318,7 +318,7 @@ Aqui está um exemplo simplificado de um fluxo de **CI/CD** para um projeto:
 ***
 
 ### 🔧 Ferramentas e Frameworks
-As ferramentas de **CI/CD** ajudam a equipe a automatizar o desenvolvimento, a implantação e os testes. Algumas ferramentas tratam especificamente da *Integração (CI)*, algumas gerenciam o desenvolvimento e a *Implantação (CD)* e outras são especializadas em testes contínuos ou funções relacionadas. **Tekton Pipelines** é um framework para plataformas [Kubernetes](https://github.com/2RP-Squad404/Ricardo_Silva#-kubernetes) que proporciona uma experiência de *CI/CD* nativo em nuvem padrão com containers.
+As ferramentas de **CI/CD** ajudam a equipe a automatizar o desenvolvimento, a implantação e os testes. Algumas ferramentas tratam especificamente da *Integração (CI)*, algumas gerenciam o desenvolvimento e a *Implantação (CD)* e outras são especializadas em testes contínuos ou funções relacionadas. **Tekton Pipelines** é um framework para plataformas [Kubernetes](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana3?tab=readme-ov-file#-kubernetes) que proporciona uma experiência de *CI/CD* nativo em nuvem padrão com containers.
 
 Além do **Tekton Pipelines**, existem outras ferramentas open source de **CI/CD**:
 
