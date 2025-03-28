@@ -4,9 +4,9 @@
 **Data: 02/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Engenharia de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1#-engenharia-de-dados)
-2. [**Git**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1#-git)
-3. [**Big Data**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana1#-big-data) 
+1. [**Engenharia de Dados**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana1?tab=readme-ov-file#-engenharia-de-dados)
+2. [**Git**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana1?tab=readme-ov-file#-git)
+3. [**Big Data**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana1?tab=readme-ov-file#-big-data) 
 
 ***
 # 📚 Resumo dos Módulos 
