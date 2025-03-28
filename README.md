@@ -4,10 +4,10 @@
 **Data: 20/08/2024**
 
 **Módulos/Etapas Feitas:**  
-1. [**Linux/Shell**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-linuxshell)
-2. [**Linguagens e Frameworks (Python)**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-linguagens-e-frameworks-python)
-3. [**Apache Spark**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-apache-spark)
-4. [**Análise de Dados**](https://github.com/2RP-Squad404/Ricardo_Silva/tree/semana4#-an%C3%A1lise-de-dados)
+1. [**Linux/Shell**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana4?tab=readme-ov-file#-linuxshell)
+2. [**Linguagens e Frameworks (Python)**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana4?tab=readme-ov-file#-linguagens-e-frameworks-python)
+3. [**Apache Spark**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana4?tab=readme-ov-file#-apache-spark)
+4. [**Análise de Dados**](https://github.com/ricardofsilva7/documentation_eng_data/tree/semana4?tab=readme-ov-file#-an%C3%A1lise-de-dados)
 
 ***
 
